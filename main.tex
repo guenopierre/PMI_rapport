@@ -1,0 +1,56 @@
+\documentclass[11pt, a4paper]{article}
+
+% --- Encodage et langue ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+% --- Bibliothèques mathématiques indispensables ---
+\usepackage{amsmath}    % Pour les environnements mathématiques avancés
+\usepackage{amssymb}    % Pour les symboles comme \mathbb{R}
+\usepackage{amsfonts}   % Pour les polices mathématiques
+
+% --- Bibliothèque recommandée pour votre matrice ---
+\usepackage{nicematrix} % Pour l'environnement bNiceMatrix avec en-têtes
+
+\begin{document}
+
+\section*{Représentation des séries temporelles}
+
+Voici la matrice de nos observations indicées par le temps :
+
+\[
+X = \begin{bNiceMatrix}[first-row, first-col]
+& x^0 & x^1 & x^2 & \dots & x^d \\
+t_0 & 1 & 6 & \text{None} & \dots & 9 \\
+t_1 & 7 & \text{None} & 7 & \dots & \text{None} \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+t_{n-1} & 9 & \text{None} & \text{None} & \dots & 79
+\end{bNiceMatrix}
+\in \mathbb{R}^{n \times d}
+\]
+
+\[
+M = \begin{bNiceMatrix}[first-row, first-col]
+& x^0 & x^1 & x^2 & \dots & x^d \\
+t_0 & 1 & 1 & 0 & \dots & 1 \\
+t_1 & 1 & 0 & 1 & \dots & 0 \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+t_{n-1} & 1 & 0 & 0 & \dots & 1
+\end{bNiceMatrix}
+\in \mathbb{R}^{n \times d}
+\]
+
+\[
+\delta = \begin{bNiceMatrix}[first-row, first-col]
+&\\
+& 0 & 0 & 0  & 0 \\
+& 5 & 5 & 5  & 5 \\
+ & 8 & 13 & 8  & 13
+\end{bNiceMatrix}
+\in \mathbb{R}^{n \times d}
+\]
+
+
+
+\end{document}
