@@ -1,6 +1,10 @@
 \documentclass[12pt, a4paper]{report}
 
 
+% consignes et instructions dans le fichier 'Instructions Rapport.txt' dans l'équipe Teams
+% s'inspirer de Radar Météorologique Aéroporté pour l'Estimation Pluviométrique
+
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
@@ -25,7 +29,7 @@
 \fancyhf{}
 \fancyfoot[C]{\thepage}
 
-\addbibresource{references.bib}
+\addbibresource{biblio.bib}
 \setlength{\bibitemsep}{5mm}
 
 \renewcommand{\thechapter}{\Roman{chapter}} % Numérotation romaine
@@ -87,7 +91,9 @@ description={description}}
 \newacronym{ml}{ML}{Machine Learning}
 \newacronym{swx}{SWx}{Space Weather}
 \newacronym{onera}{ONERA}{Office National d'Études et de Recherches Aérospatiales}
-
+\newacronym{ar}{AR}{Active Region}
+\newacronym{sep}{SEP}{Solar Energetic Particle}
+\newacronym{cme}{CME}{Coronal Mass Ejection}
 
 
 
@@ -122,6 +128,8 @@ description={description}}
 \include{introduction}
 
 \include{contexte_physique}
+
+\include{omni}
 
 \include{state_of_the_art}
 
