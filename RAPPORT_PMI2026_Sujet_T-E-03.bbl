@@ -19,6 +19,252 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{Adhikari_2023}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=d45ec0fb1ff444c37859f9f8b813aa09}{%
+           family={Adhikari},
+           familyi={A\bibinitperiod},
+           given={Deepak},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3dafe978a62db8ea9fec63a537b07dc}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f962e4b6f95da10d54aa23f93928a2d2}{%
+           family={Zhan},
+           familyi={Z\bibinitperiod},
+           given={Jinyu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4dc4b1cbe17074d06ba8c64a117732e5}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Zhiyuan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a1491689ec393cdcbb3b403b7932109}{%
+           family={Rawat},
+           familyi={R\bibinitperiod},
+           given={Danda\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6e03158aa3cfdffdf7926f1ed5b287f}{%
+           family={Aickelin},
+           familyi={A\bibinitperiod},
+           given={Uwe},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31e1a4d9b51e0e5d159619b581c404da}{%
+           family={Khorshidi},
+           familyi={K\bibinitperiod},
+           given={Hadi\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{fabfa5c330573e43a926375700c0c1b7}
+      \strng{fullhash}{8ded7385825fa91f86aa8836c873d843}
+      \strng{fullhashraw}{8ded7385825fa91f86aa8836c873d843}
+      \strng{bibnamehash}{fabfa5c330573e43a926375700c0c1b7}
+      \strng{authorbibnamehash}{fabfa5c330573e43a926375700c0c1b7}
+      \strng{authornamehash}{fabfa5c330573e43a926375700c0c1b7}
+      \strng{authorfullhash}{8ded7385825fa91f86aa8836c873d843}
+      \strng{authorfullhashraw}{8ded7385825fa91f86aa8836c873d843}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Internet of Things (IoT) is enabled by the latest developments in smart sensors, communication technologies, and Internet protocols with broad applications. Collecting data from IoT and generating information from these data become tedious tasks in real-life applications when missing data are encountered in datasets. It is of critical importance to deal with the missing data timely for intelligent decision-making. Hence, this survey attempts to provide a structured and comprehensive overview of the research on the imputation of incomplete data in IoT. The article starts by providing an overview of incomplete data based on the architecture of IoT. Then, it discusses the various strategies to handle the missing data, the assumptions used, the computing platform, and the issues related to them. The article also explores the application of imputation in the area of IoT. We encourage researchers and data analysts to use known imputation techniques and discuss various issues and challenges. Finally, potential future directions regarding the method are suggested. We believe this survey will provide a better understanding of the research of incomplete data and serve as a guide for future research.}
+      \field{issn}{0360-0300, 1557-7341}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shorthand}{Adhikari et al. (2023)}
+      \field{title}{A {Comprehensive} {Survey} on {Imputation} of {Missing} {Data} in {Internet} of {Things}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{55}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 38}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1145/3533381
+      \endverb
+      \verb{file}
+      \verb PDF:C\:\\Users\\pierr\\Zotero\\storage\\X4VPQXEZ\\Adhikari et al. - 2023 - A Comprehensive Survey on Imputation of Missing Data in Internet of Things.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3533381
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3533381
+      \endverb
+    \endentry
+    \entry{Alejo-Sanchez_2025}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=cc4e22bcac59d016f4eec836058531a9}{%
+           family={Alejo-Sanchez},
+           familyi={A\bibinithyphendelim S\bibinitperiod},
+           given={Lizette\bibnamedelima Elena},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=138dcd1f9943f5d893ad85f2a4b059d9}{%
+           family={Márquez-Grajales},
+           familyi={M\bibinithyphendelim G\bibinitperiod},
+           given={Aldo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd777ac60cb6835bf5969f623c62f461}{%
+           family={Salas-Martínez},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d62e35e841d703fc8947fc681417c77e}{%
+           family={Franco-Arcega},
+           familyi={F\bibinithyphendelim A\bibinitperiod},
+           given={Anilu},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17833f59291b8c219acefbe92aa4c57d}{%
+           family={López-Morales},
+           familyi={L\bibinithyphendelim M\bibinitperiod},
+           given={Virgilio},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=367646c221f0713fcccacb34d4404991}{%
+           family={Acevedo-Sandoval},
+           familyi={A\bibinithyphendelim S\bibinitperiod},
+           given={Otilio\bibnamedelima Arturo},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3940f16b79611de0df3c2ca976a9116b}{%
+           family={González-Ramírez},
+           familyi={G\bibinithyphendelim R\bibinitperiod},
+           given={César\bibnamedelima Abelardo},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f16e578b834110a8b7a8c4cca25a0aa}{%
+           family={Villegas-Vega},
+           familyi={V\bibinithyphendelim V\bibinitperiod},
+           given={Ramiro},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{925e1b169ad6c89878fb2e9a892e25d1}
+      \strng{fullhash}{255392e915626d8dfc31522671c9a1a0}
+      \strng{fullhashraw}{255392e915626d8dfc31522671c9a1a0}
+      \strng{bibnamehash}{925e1b169ad6c89878fb2e9a892e25d1}
+      \strng{authorbibnamehash}{925e1b169ad6c89878fb2e9a892e25d1}
+      \strng{authornamehash}{925e1b169ad6c89878fb2e9a892e25d1}
+      \strng{authorfullhash}{255392e915626d8dfc31522671c9a1a0}
+      \strng{authorfullhashraw}{255392e915626d8dfc31522671c9a1a0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Missing data in climate time series is a signiﬁcant problem because it complicates the monitoring and prediction of climatic phenomena. The primary objective of this research document is to describe the most relevant imputation methods for missing data in the climate context over the last decade. Results reveal a superior concentration of documents on the use of imputation methods for climate time series in Asia and Europe, with notable examples from Malaysia, China, and Italy. Meanwhile, Brazil and Australia were the countries with a high number of research in America and Oceania. Moreover, temperature and precipitation were the most frequently employed climate variables. Regarding the information source, the monitoring networks were the most commonly used source for extracting data in almost all the research. On the other hand, methods such as mean techniques, simple and multiple linear regression, interpolation, and Principal Component Analysis (PCA) were the conventional statistical techniques used for imputing missing data. Furthermore, artiﬁcial neural networks demonstrated the ability to identify complex patterns in the data. Finally, Generative Adversarial Networks excel over other deep learning methods in the imputation of missing climate data.}
+      \field{issn}{22150161}
+      \field{journaltitle}{MethodsX}
+      \field{month}{12}
+      \field{shorthand}{Alejo-Sanchez et al. (2025)}
+      \field{shorttitle}{Missing data imputation of climate time series}
+      \field{title}{Missing data imputation of climate time series: {A} review}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{103455}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.mex.2025.103455
+      \endverb
+      \verb{file}
+      \verb PDF:C\:\\Users\\pierr\\Zotero\\storage\\W64HZF5S\\Alejo-Sanchez et al. - 2025 - Missing data imputation of climate time series A review.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2215016125003000
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2215016125003000
+      \endverb
+    \endentry
+    \entry{Fang_2020}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f7058004d2b4869fb2d7bbfd478eafcb}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Chenguang},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=147b8560865739e558b0631402b38ee6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{e1393f7babceb7f3403394375a8b653f}
+      \strng{fullhash}{e1393f7babceb7f3403394375a8b653f}
+      \strng{fullhashraw}{e1393f7babceb7f3403394375a8b653f}
+      \strng{bibnamehash}{e1393f7babceb7f3403394375a8b653f}
+      \strng{authorbibnamehash}{e1393f7babceb7f3403394375a8b653f}
+      \strng{authornamehash}{e1393f7babceb7f3403394375a8b653f}
+      \strng{authorfullhash}{e1393f7babceb7f3403394375a8b653f}
+      \strng{authorfullhashraw}{e1393f7babceb7f3403394375a8b653f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Time series are all around in real-world applications. However, unexpected accidents for example broken sensors or missing of the signals will cause missing values in time series, making the data hard to be utilized. It then does harm to the downstream applications such as traditional classiﬁcation or regression, sequential data integration and forecasting tasks, thus raising the demand for data imputation. Currently, time series data imputation is a well-studied problem with diﬀerent categories of methods. However, these works rarely take the temporal relations among the observations and treat the time series as normal structured data, losing the information from the time data. In recent, deep learning models have raised great attention. Time series methods based on deep learning have made progress with the usage of models like RNN, since it captures time information from data. In this paper, we mainly focus on time series imputation technique with deep learning methods, which recently made progress in this ﬁeld. We will review and discuss their model architectures, their pros and cons as well as their eﬀects to show the development of the time series imputation methods.}
+      \field{month}{11}
+      \field{note}{arXiv:2011.11347 [cs.LG]}
+      \field{shorthand}{Fang et al. (2020)}
+      \field{shorttitle}{Time {Series} {Data} {Imputation}}
+      \field{title}{Time {Series} {Data} {Imputation}: {A} {Survey} on {Deep} {Learning} {Approaches}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2011.11347
+      \endverb
+      \verb{file}
+      \verb PDF:C\:\\Users\\pierr\\Zotero\\storage\\5SG5JJJR\\Fang et Wang - 2020 - Time Series Data Imputation A Survey on Deep Learning Approaches.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2011.11347
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2011.11347
+      \endverb
+      \keyw{Computer Science - Machine Learning,Computer Science - Artificial Intelligence}
+    \endentry
     \entry{OMNI2_doc}{misc}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8eac7d955ab49e7ef121559f1bccc6dc}{%
@@ -151,6 +397,7 @@
       \field{journaltitle}{Geophysical Research Letters}
       \field{month}{4}
       \field{number}{8}
+      \field{shorthand}{Kondrashov et al. (2014)}
       \field{title}{Reconstruction of gaps in the past history of solar wind parameters}
       \field{urlday}{30}
       \field{urlmonth}{9}
@@ -171,6 +418,58 @@
       \endverb
       \verb{url}
       \verb https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014GL059741
+      \endverb
+    \endentry
+    \entry{Luo_2018}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7466726235224958d5696d9a63021b41}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yonghong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06e97de92d593029d472d68e982dfe9e}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Xiangrui},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5acec98b29ee91fa6b08b85a6a0adad}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05ed36bcb6a44b5b9e4d52219469373d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3cd8852f358f0160b71a07afeee1950d}
+      \strng{fullhash}{e2ae9cca958db1d8db0eb03be08be71e}
+      \strng{fullhashraw}{e2ae9cca958db1d8db0eb03be08be71e}
+      \strng{bibnamehash}{3cd8852f358f0160b71a07afeee1950d}
+      \strng{authorbibnamehash}{3cd8852f358f0160b71a07afeee1950d}
+      \strng{authornamehash}{3cd8852f358f0160b71a07afeee1950d}
+      \strng{authorfullhash}{e2ae9cca958db1d8db0eb03be08be71e}
+      \strng{authorfullhashraw}{e2ae9cca958db1d8db0eb03be08be71e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multivariate time series usually contain a large number of missing values, which hinders the application of advanced analysis methods on multivariate time series data. Conventional approaches to addressing the challenge of missing values, including mean/zero imputation, case deletion, and matrix factorization-based imputation, are all incapable of modeling the temporal dependencies and the nature of complex distribution in multivariate time series. In this paper, we treat the problem of missing value imputation as data generation. Inspired by the success of Generative Adversarial Networks (GAN) in image generation, we propose to learn the overall distribution of a multivariate time series dataset with GAN, which is further used to generate the missing values for each sample. Different from the image data, the time series data are usually incomplete due to the nature of data recording process. A modiﬁed Gate Recurrent Unit is employed in GAN to model the temporal irregularity of the incomplete time series. Experiments on two multivariate time series datasets show that the proposed model outperformed the baselines in terms of accuracy of imputation. Experimental results also showed that a simple model on the imputed data can achieve state-of-the-art results on the prediction tasks, demonstrating the beneﬁts of our model in downstream applications.}
+      \field{shorthand}{Luo et al. (2018)}
+      \field{title}{Multivariate {Time} {Series} {Imputation} with {Generative} {Adversarial} {Networks}}
+      \field{year}{2018}
+      \verb{file}
+      \verb PDF:C\:\\Users\\pierr\\Zotero\\storage\\NC9R8BA9\\Luo et al. - 2018 - Multivariate Time Series Imputation with Generative Adversarial Networks.pdf:application/pdf
       \endverb
     \endentry
     \entry{OMNI_LRO_doc}{online}{}{}
@@ -207,6 +506,82 @@
       \verb https://omniweb.gsfc.nasa.gov/html/ow_data.html
       \endverb
     \endentry
+    \entry{Richter_2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e20f14272031bcf511cb428e59b94b2f}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da416b75dbd829ca934832773d15596b}{%
+           family={Ijaradar},
+           familyi={I\bibinitperiod},
+           given={Jyotirmaya},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=463e2704eb91819b046dea453da6badb}{%
+           family={Wetzker},
+           familyi={W\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea08634d010917fec8fba18842b50abf}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Vineeta},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f025c0ef3cd3f393d64e24a6ff0efe06}{%
+           family={Frotzscher},
+           familyi={F\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5a0205b30bba9cba32497f2f260b3d45}
+      \strng{fullhash}{47f96ecb7c6371643ae167e6dd75e2e7}
+      \strng{fullhashraw}{47f96ecb7c6371643ae167e6dd75e2e7}
+      \strng{bibnamehash}{5a0205b30bba9cba32497f2f260b3d45}
+      \strng{authorbibnamehash}{5a0205b30bba9cba32497f2f260b3d45}
+      \strng{authornamehash}{5a0205b30bba9cba32497f2f260b3d45}
+      \strng{authorfullhash}{47f96ecb7c6371643ae167e6dd75e2e7}
+      \strng{authorfullhashraw}{47f96ecb7c6371643ae167e6dd75e2e7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multivariate time series (MTS) are captured in a great variety of real-world applications. However, analysing and modeling the data for classification and forecasting purposes can become very challenging if values are missing in the data set. The need for imputation methods, to fill the gaps in MTS, is well known. Thus, a great variaty of algorithms for solving this task has been proposed in the literature. However, the research community is constantly working on the development of advanced algorithms, that fulfill the special requirements of multidimensional temporal data, since most of the existing imputation methods treat MTS as ordinary structured data and fail to model the temporal relationships within and between sequences of observations. The main emphasis of MTS imputation research is currently put on deep learning (DL) models, especially those making use of generative adversarial networks (GANs). In our survey, we present our categorization of imputation algorithms, especially of GAN-models. We included eighteen different GAN-models designed for the MTS imputation task, which we introduce in detail. We provide a comparison of the models including their performance regarding MTS imputation, based on our findings in the literature. The following points can be considered the most important findings from our survey: The research on GAN-based imputation models for MTS has gained momentum in the last years across different domains, therewhile showing the effectiveness of these methods. The latest trend in the research area is the incorporation of attention mechanisms into the algorithms. Nevertheless, there are open research challenges, e.g. the transferability of models across data sets from different domains.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{shorthand}{Richter et al. (2024)}
+      \field{title}{A {Survey} on {Multivariate} {Time} {Series} {Imputation} {Using} {Adversarial} {Learning}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{148167\bibrangedash 148189}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.3473540
+      \endverb
+      \verb{file}
+      \verb PDF:C\:\\Users\\pierr\\Zotero\\storage\\UYE4RL6J\\Richter et al. - 2024 - A Survey on Multivariate Time Series Imputation Using Adversarial Learning.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10704635/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10704635/
+      \endverb
+    \endentry
     \entry{SPDF_OMNIWeb}{misc}{}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -226,6 +601,169 @@
       \endverb
       \verb{url}
       \verb https://omniweb.gsfc.nasa.gov/
+      \endverb
+    \endentry
+    \entry{Wang_2025}{misc}{}{}
+      \name{author}{9}{}{%
+        {{un=1,uniquepart=given,hash=2f3ea981fa5a715a69118b48e576a9f5}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=1a2b3131ee2d7dc851477f5fc549e896}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Wenjie},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=128bf728142b3bceb8a5e1ead88171dc}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yiyuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa90ced898ce1c2337bffa4981e4bef5}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Linglong},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0979631962d67da3f16e265d34392902}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59099d02d7a6dc526a543c6c6bab94e7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Keli},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40962e0575fd9f16cd4719726685e647}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wenjia},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fae8d744697d02705e16e955714a9e0}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Yuxuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42f489c44112b767da11a846147b8faf}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Qingsong},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{aa7a83578db6d97a4a3107198650dca5}
+      \strng{fullhash}{4cc4cddce52eb3c191d2358ef280ebd5}
+      \strng{fullhashraw}{4cc4cddce52eb3c191d2358ef280ebd5}
+      \strng{bibnamehash}{aa7a83578db6d97a4a3107198650dca5}
+      \strng{authorbibnamehash}{aa7a83578db6d97a4a3107198650dca5}
+      \strng{authornamehash}{aa7a83578db6d97a4a3107198650dca5}
+      \strng{authorfullhash}{4cc4cddce52eb3c191d2358ef280ebd5}
+      \strng{authorfullhashraw}{4cc4cddce52eb3c191d2358ef280ebd5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Missing values are ubiquitous in multivariate time series (MTS) data, posing significant challenges for accurate analysis and downstream applications. In recent years, deep learning-based methods have successfully handled missing data by leveraging complex temporal dependencies and learned data distributions. In this survey, we provide a comprehensive summary of deep learning approaches for multivariate time series imputation (MTSI) tasks. We propose a novel taxonomy that categorizes existing methods based on two key perspectives: imputation uncertainty and neural network architecture. Furthermore, we summarize existing MTSI toolkits with a particular emphasis on the PyPOTS Ecosystem, which provides an integrated and standardized foundation for MTSI research. Finally, we discuss key challenges and future research directions, which give insight for further MTSI research. This survey aims to serve as a valuable resource for researchers and practitioners in the field of time series analysis and missing data imputation tasks. A wellmaintained MTSI paper and tool list is available at https://github.com/WenjieDu/Awesome Imputation.}
+      \field{month}{5}
+      \field{note}{arXiv:2402.04059 [cs.LG]}
+      \field{shorthand}{Wang et al. (2025)}
+      \field{shorttitle}{Deep {Learning} for {Multivariate} {Time} {Series} {Imputation}}
+      \field{title}{Deep {Learning} for {Multivariate} {Time} {Series} {Imputation}: {A} {Survey}}
+      \field{urlday}{22}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2402.04059
+      \endverb
+      \verb{file}
+      \verb PDF:C\:\\Users\\pierr\\Zotero\\storage\\JM4SKHLU\\Wang et al. - 2025 - Deep Learning for Multivariate Time Series Imputation A Survey.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2402.04059
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2402.04059
+      \endverb
+      \keyw{Computer Science - Machine Learning,Computer Science - Artificial Intelligence}
+    \endentry
+    \entry{Zahmatkesh_2026}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9887fb96911d532cb8e3954a96c4265a}{%
+           family={Zahmatkesh},
+           familyi={Z\bibinitperiod},
+           given={Samira},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3a0a81180b1664cb068379935b3e61}{%
+           family={Zech},
+           familyi={Z\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{eeebe1d92419869d0b208f0339963f78}
+      \strng{fullhash}{eeebe1d92419869d0b208f0339963f78}
+      \strng{fullhashraw}{eeebe1d92419869d0b208f0339963f78}
+      \strng{bibnamehash}{eeebe1d92419869d0b208f0339963f78}
+      \strng{authorbibnamehash}{eeebe1d92419869d0b208f0339963f78}
+      \strng{authornamehash}{eeebe1d92419869d0b208f0339963f78}
+      \strng{authorfullhash}{eeebe1d92419869d0b208f0339963f78}
+      \strng{authorfullhashraw}{eeebe1d92419869d0b208f0339963f78}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Spatio-temporal data refers to observations indexed by both spatial locations and time points, emphasizing the importance of accounting for dependencies across these dimensions. Such data finds applications in various fields, including environmental monitoring, transportation, agriculture, public health, and urban planning. However, spatio-temporal data often suffers from incomplete observations due to various factors such as sensor failures and environmental disruptions, making accurate imputation particularly challenging. Traditional imputation methods frequently approach the problem from either a spatial or a temporal perspective. However, recent advancements have introduced numerous methods that leverage both spatial and temporal dependencies to reconstruct missing data, leading to significantly improved results. This article provides a comprehensive review of spatio-temporal missing data imputation techniques, encompassing an extensive array of methods, from traditional statistical approaches to modern machine learning-based techniques. While other domain-specific approaches (e.g., physics-based or simulation-driven methods) exist, the majority of research in this area falls into these two categories, which are therefore the primary focus of this review. Our contributions also include a discussion of key challenges and research gaps, as well as the identification of promising directions for future research in spatio-temporal data imputation.}
+      \field{issn}{0360-0300, 1557-7341}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{month}{7}
+      \field{number}{10}
+      \field{shorthand}{Zahmatkesh et al. (2026)}
+      \field{shorttitle}{Spatio-{Temporal} {Missing} {Data} {Imputation}}
+      \field{title}{Spatio-{Temporal} {Missing} {Data} {Imputation}: {A} {Systematic} {Literature} {Review} with a {Focus} on {Statistical} and {Machine} {Learning}-{Based} {Approaches}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{58}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 41}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1145/3797903
+      \endverb
+      \verb{file}
+      \verb PDF:C\:\\Users\\pierr\\Zotero\\storage\\N44QZZLQ\\Zahmatkesh et Zech - 2026 - Spatio-Temporal Missing Data Imputation A Systematic Literature Review with a Focus on Statistical.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3797903
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3797903
       \endverb
     \endentry
   \enddatalist

@@ -35,16 +35,13 @@ Les données proviennent en effet d'une quinzaine de satellites en orbite autour
 
 Les tableaux~\ref{tab:omni_imf} et~\ref{tab:omni_plasma} donnent, pour chaque mission, le responsable scientifique, la période utilisée et la référence. 
 
-% FIGURE 1 (conseillée) : frise chronologique des satellites utilisés dans OMNI
-% (IMP 8 : 1973--2000, Geotail : 1995--2006, Wind : 1995--aujourd'hui,
-%  ACE : 1998--2024, DSCOVR : 2016--2019 -- dates tirées de la documentation HRO).
-% Elle montre bien que la série est un assemblage de plusieurs missions.
-% \begin{figure}[h]
-%   \centering
-%   \includegraphics[width=0.9\textwidth]{figures/omni_spacecraft_timeline.pdf}
-%   \caption{Satellites utilisés pour construire OMNI. \textit{(à compléter)}}
-%   \label{fig:omni_timeline}
-% \end{figure}
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.9\textwidth]{images/disponibilités_data_OMNI_LRO.png}
+   \caption{Satellites utilisés pour construire OMNI.}
+   \label{fig:omni_timeline_data}
+ \end{figure}
 
 
 \paragraph{Paramètres}
@@ -57,7 +54,12 @@ La version horaire contient les mêmes grandes familles de paramètres ainsi que
 La version 5 minutes ajoute des flux de protons de plus de 10, 30 et 60~MeV mesurés par les satellites GOES, disponibles seulement en 5 minutes. 
 Les indices AE, AL, AU et SYM/H sont calculés à une minute par le centre de données de Kyoto (\cite{OMNI_HRO_doc}).
 
-
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.5\textwidth]{images/disponibilités_paramètres_OMNI_LRO.png}
+   \caption{À préciser}
+   \label{fig:omni_timeline_param}
+ \end{figure}
 
 
 \paragraph{Localisation}
@@ -76,7 +78,7 @@ Pour les données horaires, le décalage est fait avec des mesures de résolutio
 Les instruments des différents satellites ne donnent pas exactement les mêmes valeurs et peuvent introduire des biais dans la continuité.
 Pour éviter cela, les chercheurs ont mis en place une normalisation de certaines données (voir \S 13. \cite{OMNI_LRO_doc}). 
 
-Cette normalisation est également accompagnée d'une priorité quand deux satellites fournissent la même information sur la même période (voir \S 8. \cite{OMNI_LRO_doc}). 
+Cette normalisation est également accompagnée d'une priorité quand deux satellites fournissent la même information sur la même période, notamment entre Wind et ACE (voir \S 8. \cite{OMNI_LRO_doc}). 
 
 \vspace{1cm}
 

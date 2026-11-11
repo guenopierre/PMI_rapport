@@ -1,28 +1,169 @@
 \chapter{L’imputation des données manquantes : un problème transversal et un champ de recherche dynamique}
 
-
 \section{Les données manquantes : un problème connu et commun à travers les domaines}
 
-Qu'il faut traiter correctement (paragraphe uniquement)
+% =====================================================================
+% 1. DÉFINITION ET CAUSES
+% =====================================================================
+
+On parle de donnée manquante lorsqu’une valeur n’a pas été enregistrée pour une variable ou pour un individu \cite{Zahmatkesh_2026}.
+% Source : Zahmatkesh, §2.2 « Missing Data », p. 6, 1re phrase.
+% Citation complète dans ta mind map (branche « What are missing values? »).
+Ce phénomène est impossible à éviter complètement. 
+Même lorsque le système de collecte est bien conçu et que les capteurs sont de bonne qualité, des valeurs finissent toujours par manquer \cite{Adhikari_2023}. 
+Les causes sont très variées, 
+% Source 1 : Adhikari, §1 « Introduction », p. 2, vers la fin du 1er paragraphe :
+%   « No matter how strictly the various intelligent systems are designed... »
+% Source 2 : Zahmatkesh, §2.2, p. 6, 2e phrase : liste « human errors, technical failures,
+%   data entry issues, data processing errors, data integration problems, or intentional omissions ».
+Adhikari et al. proposent de les classer selon l’architecture d’un système de type Internet des objets (IoT), qui comporte trois couches \cite{Adhikari_2023} :
+\begin{itemize}
+    \vspace{2mm}
+    \item \textbf{La couche physique (capteurs)} : environnement difficile, phénomènes météorologiques extrêmes, maintenance, vieillissement ou panne des capteurs, batterie ou alimentation insuffisante, attaques sur les capteurs ;
+    \vspace{2mm}
+    \item \textbf{La couche réseau (transmission)} : perte de paquets, problèmes de chiffrement ou de déchiffrement, équipements défaillants, attaques sur le réseau, problèmes d’alimentation ;
+    \vspace{2mm}
+    \item \textbf{La couche application (stockage et traitement)} : erreur humaine (suppression, oubli), non-réponse à une enquête, erreur lors de l’enregistrement ou du transfert, ou cause inconnue.
+    \vspace{5mm}
+\end{itemize}
+% Source : Adhikari, §2.2 « IoT Architecture and Missing Data », pp. 5-6 + Fig. 1 (p. 6).
+%   Le texte décrit les 3 couches (« sensing/object layer », « network layer », « application layer »).
+%   Le détail des listes (perte de paquets, vieillissement, batterie...) vient surtout de la Fig. 1 et de §1/§2.1.
+% \textit{DOUTE : j’ai complété certains points (« perte de paquets », « problème d’alimentation »)
+%   à partir de la transcription de la Fig. 1 dans ta mind map. Vérifie sur la figure d’origine.}
+% \textit{GRAPHE SUGGÉRÉ : un schéma à trois couches (capteurs, réseau, application) avec les causes
+%   dans chaque couche. À redessiner toi-même plutôt que copier la Fig. 1 d’Adhikari (droits d’auteur).}
+
+
+% =====================================================================
+% 2. DOMAINES TOUCHÉS
+% =====================================================================
+
+On retrouve les mêmes causes dans d’autres applications; en realité, le problème touche presque tous les domaines. 
+Voici quelques exemples concrets, qui concernent directement les séries temporelles multivariées:
+\begin{itemize}
+    \vspace{2mm}
+    \item En santé, le jeu de données PhysioNet 2012, composé de séjours en soins intensifs, est très souvent utilisé comme référence. 
+    Son taux global de valeurs manquantes dépasse 80~\% car elles ne sont réalisées que lors de l'intervention d'un spécialiste \cite{Luo_2018,Richter_2024,Wang_2025}.
+    \vspace{2mm}
+    \item Pour la qualité de l'air, le jeu de données italien PT08.S1 présente environ 34~\% de valeurs manquantes \cite{Richter_2024}.
+    \vspace{2mm}
+    \item Les mesures de température, de précipitations ou d’humidité proviennent surtout de réseaux de stations, souvent incomplets \cite{Alejo-Sanchez_2025}.
+    \vspace{2mm}
+    \item Fang et Wang montrent que des erreurs de capteurs de niveau d'essence créent des trous dans les données, et que les imputer améliore nettement la prédiction de consommation \cite{Fang_2020}.
+\end{itemize} \vspace{5mm}
+% Source 1 (santé) : Luo, §1, p. 2 + Fig. 2 : « The global missing rate is 80.67% » ; Richter, §I, p. 1 (148167) :
+%   « Physionet 2012 data set on medical data has a missing rate of 80 percent » ; Wang, §1, p. 1 : « missing rates can exceed 80% ».
+% Source 2 (air) : Richter, §I, p. 1 (148167) : PT08.S1 « has a missing rate of 34 percent ».
+% Source 3 (climat) : Alejo-Sanchez, « Study areas analysis », p. 4 + Fig. 2 : 93 % des études utilisent des réseaux de stations.
+% Source 4 (carburant) : Fang, §1, p. 1, 3e paragraphe : « imputing the missing values indeed helps significantly
+%   the prediction of fuel consumption ».
+% Source 5 (météo spatiale) : Rüdisser et al., 2026, p. 1, uniquement via ta mind map (branche « Why is it a problem? »).
+% \textit{DOUTE : Rüdisser n’est pas dans les PDF que tu m’as envoyés. Je me suis appuyé uniquement sur ta mind map.
+%   Je n’ai pas pu vérifier la page ni la formulation. Clé BibTeX supposée : rudisser_2026.}
+% \textit{DOUTE : pour la santé, Luo parle de 4 000 séjours et Richter de 12 000 admissions. Je n’ai donc pas donné de taille de jeu de données.}
+% \textit{GRAPHE SUGGÉRÉ : si tu utilises PhysioNet dans ton projet, ta propre carte de chaleur des valeurs manquantes
+%   (variables × heures) serait plus parlante, sur le modèle des Fig. 1-2 de Luo.}
+
+Le taux de valeurs manquantes peut être très élevé. 
+Plusieurs auteurs indiquent qu’il peut atteindre 90~\% dans certains jeux de données \cite{Fang_2020,Richter_2024}. \\
+% Source 1 : Fang, §1, p. 1, 1er paragraphe : « the missing rate can reach 90% ».
+% Source 2 : Richter, §I, p. 1 (148167) : « the missing rate can reach up to 90 % ».
+% \textit{DOUTE : les deux articles citent la même source d’origine (García-Laencina et al., 2015).
+%   Si tu veux la citer directement, il faudra l’ajouter à ta bibliographie.}
+
+% =====================================================================
+% 3. POURQUOI IL FAUT LES TRAITER CORRECTEMENT
+% =====================================================================
+
+Il est important de traiter correctement ces données manquantes, car ne pas le faire a des conséquences directes. 
+Adhikari et al. citent plusieurs risques : des résultats biaisés, une taille d’échantillon réduite, une perte d’efficacité et de puissance statistique, des intervalles de confiance moins précis, et au final des conclusions trompeuses \cite{Adhikari_2023}.
+Certains modèles de Machine Learning ont aussi besoin de données complètes pour bien fonctionner \cite{Adhikari_2023}. 
+Les effets se voient en aval : classification, régression et prévision sont dégradées \cite{Fang_2020,Wang_2025}. 
+Dans le cas du climat, les trous compliquent le suivi et la prévision des phénomènes \cite{Alejo-Sanchez_2025}. 
+De plus, les valeurs manquantes proches dans le temps ou dans l’espace peuvent contenir de l’information utile, et doivent donc être soigneusement récupérées \cite{Zahmatkesh_2026}.
+% Source 1 : Adhikari, §1.1, p. 2, 3e paragraphe : « The high risk of obtaining bias results... reduction in sample size,
+%   loss of efficiency... misleading results ».
+% Source 2 : Adhikari, §1.1, p. 2, 4e paragraphe : « All of these techniques require complete quality data ».
+% Source 3 : Fang, Abstract, p. 1 : l’absence de valeurs nuit aux applications en aval (classification, régression,
+%   intégration de données séquentielles, prévision). Wang, §1, p. 1 : même idée (« accuracy and reliability of downstream analysis »).
+% Source 4 : Alejo-Sanchez, Abstract, p. 1 : « complicates the monitoring and prediction of climatic phenomena ».
+% Source 5 : Zahmatkesh, §1, p. 2, 2e paragraphe : « Missing data in spatial or temporal vicinity may be informative ».
+%   Attention : la phrase sur le biais dans ce paragraphe concerne l’ignorance des dépendances spatio-temporelles,
+%   pas les données manquantes. Je ne l’ai donc pas utilisée ici.
+
+Cependant, remplir les trous n’est pas forcément une tâche aisée.
+Le choix de la méthode adaptée dépend de la façon dont les données manquent : leur durée, leur motif et leur mécanisme d'apparition \cite{Zahmatkesh_2026}.
+C’est l’objet de la section suivante.
+% Source : Zahmatkesh, §1, p. 2 : choisir une méthode d’imputation « with the knowledge of missing data mechanisms and the pattern of missingness » ;
+%   §2.2, p. 6 : comprendre la distribution des trous aide à choisir l’algorithme.
+
+
+
 
 \section{Comprendre la répartition des données manquantes}
 
 \subsection{Durées}
 
+Gap classification (Adhikari et al 2023)
+
 \subsection{Patterns}
+
+univariate Vs multivariate:
+
+monotone Vs non-monotone:
+
+file matching
+
+
 
 \subsection{Mechanisms}
 
 
+Rubin (MCAR, MAR, NMAR)
+
 \section{Méthodes d’imputation}
 (préciser qu'il existe d'autres techniques que l'imputation mais quelle sont pas du tt dans notre contexte)
 
+\subsection{single imputation}
+
+\subsection{multiple imputation}
+\subsubsection{Model based}
+\subsubsection{Imputation based}
+
 \subsection{Méthodes statistiques conventionnelles}
 
-\subsection{Méthode de Machine Learning}
+\subsection{Méthode de Machine Learning (shallow learning)}
+
+Préciser également la différence entre les modèles supervisés et non supervisés
+\subsubsection{Classification}
+
+\subsubsection{Clustering}
+
+
 
 \subsection{Méthodes de Deep Learning}
 
+Bien préciser que la première différence de méthodes est lié à un concept déterministe vs stochastic
+\subsection{Méthodes prédictives}
+
+\subsubsection{architectures principales}
+
+RNN, CNN, GNN, Attention based
+
+\subsubsection*{modèles appliqués à l'imputation}
+
+\subsection{Méthodes génératives}
+
+\subsubsection{architectures principales}
+
+VAE, GAN, Diffusion
+\subsubsection*{modèles appliqués à l'imputation}
+
+
 \section{Évaluation des performances}
+différentes métriques (Évaluation directe, correlation, mesure du biais, conservation de la distribution)
 
 \section{PyPOTS}
+
+en quoi pypots nous est utile

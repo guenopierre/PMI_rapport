@@ -375,7 +375,6 @@ OUTPUT introduction.aux
 INPUT .\introduction.tex
 INPUT .\introduction.tex
 INPUT introduction.tex
-INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
 INPUT .\contexte_physique.tex
 INPUT .\contexte_physique.tex
 OUTPUT contexte_physique.aux
@@ -389,6 +388,7 @@ INPUT .\images\Sun layers.png
 INPUT .\images\Sun layers.png
 INPUT .\images\Sun layers.png
 INPUT .\images\Sun layers.png
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
 INPUT .\images\sunspot.jpg
@@ -427,6 +427,20 @@ INPUT .\omni.tex
 INPUT .\omni.tex
 INPUT omni.tex
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
+INPUT .\images\disponibilités_data_OMNI_LRO.png
+INPUT .\images\disponibilités_data_OMNI_LRO.png
+INPUT .\images\disponibilités_data_OMNI_LRO.png
+INPUT .\images\disponibilités_data_OMNI_LRO.png
+INPUT .\images\disponibilités_data_OMNI_LRO.png
+INPUT .\images\disponibilités_data_OMNI_LRO.png
+INPUT .\images\disponibilités_data_OMNI_LRO.png
+INPUT .\images\disponibilités_paramètres_OMNI_LRO.png
+INPUT .\images\disponibilités_paramètres_OMNI_LRO.png
+INPUT .\images\disponibilités_paramètres_OMNI_LRO.png
+INPUT .\images\disponibilités_paramètres_OMNI_LRO.png
+INPUT .\images\disponibilités_paramètres_OMNI_LRO.png
+INPUT .\images\disponibilités_paramètres_OMNI_LRO.png
+INPUT .\images\disponibilités_paramètres_OMNI_LRO.png
 INPUT .\state_of_the_art.tex
 INPUT .\state_of_the_art.tex
 OUTPUT state_of_the_art.aux
