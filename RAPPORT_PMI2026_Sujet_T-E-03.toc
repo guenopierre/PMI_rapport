@@ -1,7 +1,7 @@
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{Remerciements}{2}{figure.caption.1}%
 \contentsline {chapter}{Introduction}{4}{chapter*.2}%
-\contentsline {chapter}{Environnement spatial : le Soleil, ses événements et leurs effets sur la Terre}{5}{chapter*.2}%
+\contentsline {chapter}{\numberline {I}Environnement spatial : le Soleil, ses événements et leurs effets sur la Terre}{5}{chapter.1}%
 \contentsline {section}{Physique solaire}{5}{section*.3}%
 \contentsline {section}{Évènements solaires}{5}{figure.caption.5}%
 \contentsline {subsubsection}{Flare}{6}{figure.caption.5}%
@@ -9,21 +9,27 @@
 \contentsline {subsubsection}{Solar Energetic Particles}{6}{figure.caption.6}%
 \contentsline {section}{Interactions Soleil-Terre}{7}{figure.caption.7}%
 \contentsline {section}{Space Weather}{7}{figure.caption.7}%
-\contentsline {chapter}{OMNI, une base de données regroupant les observations du milieu interplanétaire depuis plusieurs décennies}{8}{figure.caption.7}%
-\contentsline {section}{Construction et Objectifs}{8}{section*.8}%
-\contentsline {section}{Instruments et Paramètres}{8}{section*.8}%
-\contentsline {section}{Données manquantes}{8}{section*.8}%
-\contentsline {chapter}{L’imputation des données manquantes : un problème transversal et un champ de recherche dynamique}{9}{section*.8}%
-\contentsline {section}{Les données manquantes : un problème connu et commun à travers les domaines}{9}{section*.9}%
-\contentsline {section}{Comprendre la répartition des données manquantes}{9}{section*.9}%
-\contentsline {subsection}{Durées}{9}{section*.10}%
-\contentsline {subsection}{Patterns}{9}{section*.10}%
-\contentsline {subsection}{Mechanisms}{9}{section*.10}%
-\contentsline {section}{Méthodes d’imputation}{9}{section*.10}%
-\contentsline {subsection}{Méthodes statistiques conventionnelles}{9}{section*.11}%
-\contentsline {subsection}{Méthode de Machine Learning}{9}{section*.11}%
-\contentsline {subsection}{Méthodes de Deep Learning}{9}{section*.11}%
-\contentsline {section}{Évaluation des performances}{9}{section*.11}%
-\contentsline {chapter}{Bibliography}{10}{chapter*.12}%
-\contentsline {chapter}{Acronyms and abbreviations}{11}{chapter*.12}%
-\contentsline {chapter}{Glossary}{12}{chapter*.12}%
+\contentsline {chapter}{\numberline {II}OMNI, une base de données regroupant les observations du milieu interplanétaire depuis plusieurs décennies}{8}{chapter.2}%
+\contentsline {section}{\numberline {II.1}Description}{8}{section.2.1}%
+\contentsline {paragraph}{Objectifs et création}{8}{section.2.1}%
+\contentsline {paragraph}{Versions et résolutions}{8}{section.2.1}%
+\contentsline {paragraph}{Satellites et instruments}{8}{section.2.1}%
+\contentsline {paragraph}{Paramètres}{9}{section.2.1}%
+\contentsline {paragraph}{Localisation}{9}{section.2.1}%
+\contentsline {paragraph}{Biais et normalisation}{9}{section.2.1}%
+\contentsline {section}{\numberline {II.2}Données manquantes}{9}{section.2.2}%
+\contentsline {chapter}{\numberline {III}L’imputation des données manquantes : un problème transversal et un champ de recherche dynamique}{10}{chapter.3}%
+\contentsline {section}{\numberline {III.1}Les données manquantes : un problème connu et commun à travers les domaines}{10}{section.3.1}%
+\contentsline {section}{\numberline {III.2}Comprendre la répartition des données manquantes}{10}{section.3.2}%
+\contentsline {subsection}{\numberline {III.2.1}Durées}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {III.2.2}Patterns}{10}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {III.2.3}Mechanisms}{10}{subsection.3.2.3}%
+\contentsline {section}{\numberline {III.3}Méthodes d’imputation}{10}{section.3.3}%
+\contentsline {subsection}{\numberline {III.3.1}Méthodes statistiques conventionnelles}{10}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {III.3.2}Méthode de Machine Learning}{10}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {III.3.3}Méthodes de Deep Learning}{10}{subsection.3.3.3}%
+\contentsline {section}{\numberline {III.4}Évaluation des performances}{10}{section.3.4}%
+\contentsline {section}{\numberline {III.5}PyPOTS}{10}{section.3.5}%
+\contentsline {chapter}{Bibliography}{11}{chapter*.8}%
+\contentsline {chapter}{Acronymes et abréviations}{12}{chapter*.8}%
+\contentsline {chapter}{Glossaire}{13}{chapter*.8}%

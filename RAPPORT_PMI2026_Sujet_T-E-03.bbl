@@ -19,7 +19,90 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
-    \entry{kondrashov_reconstruction_2014}{article}{}{}
+    \entry{OMNI2_doc}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8eac7d955ab49e7ef121559f1bccc6dc}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Joseph\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48a1b254bdbd7ff7270d33c187ed8a73}{%
+           family={Papitashvili},
+           familyi={P\bibinitperiod},
+           given={Natalia\bibnamedelima E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{12947704ceba40c03b09566830b30b90}
+      \strng{fullhash}{12947704ceba40c03b09566830b30b90}
+      \strng{fullhashraw}{12947704ceba40c03b09566830b30b90}
+      \strng{bibnamehash}{12947704ceba40c03b09566830b30b90}
+      \strng{authorbibnamehash}{12947704ceba40c03b09566830b30b90}
+      \strng{authornamehash}{12947704ceba40c03b09566830b30b90}
+      \strng{authorfullhash}{12947704ceba40c03b09566830b30b90}
+      \strng{authorfullhashraw}{12947704ceba40c03b09566830b30b90}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{NASA/GSFC Space Physics Data Facility, OMNIWeb}
+      \field{note}{Consulté en novembre 2026}
+      \field{title}{{OMNI} 2 data set documentation}
+      \verb{urlraw}
+      \verb https://omniweb.gsfc.nasa.gov/html/omni2_doc_addition.html
+      \endverb
+      \verb{url}
+      \verb https://omniweb.gsfc.nasa.gov/html/omni2_doc_addition.html
+      \endverb
+    \endentry
+    \entry{OMNI_HRO_doc}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8eac7d955ab49e7ef121559f1bccc6dc}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Joseph\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48a1b254bdbd7ff7270d33c187ed8a73}{%
+           family={Papitashvili},
+           familyi={P\bibinitperiod},
+           given={Natalia\bibnamedelima E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{12947704ceba40c03b09566830b30b90}
+      \strng{fullhash}{12947704ceba40c03b09566830b30b90}
+      \strng{fullhashraw}{12947704ceba40c03b09566830b30b90}
+      \strng{bibnamehash}{12947704ceba40c03b09566830b30b90}
+      \strng{authorbibnamehash}{12947704ceba40c03b09566830b30b90}
+      \strng{authornamehash}{12947704ceba40c03b09566830b30b90}
+      \strng{authorfullhash}{12947704ceba40c03b09566830b30b90}
+      \strng{authorfullhashraw}{12947704ceba40c03b09566830b30b90}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentation de la version haute résolution (HRO) d'OMNI}
+      \field{shorthand}{OMNI HRO online documentation}
+      \field{title}{One min and 5-min solar wind data sets at the Earth's bow shock nose}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://omniweb.gsfc.nasa.gov/html/omni_min_data.html
+      \endverb
+      \verb{url}
+      \verb https://omniweb.gsfc.nasa.gov/html/omni_min_data.html
+      \endverb
+    \endentry
+    \entry{Kondrashov_2014}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=6932b28c639228d0b8a03145de11a8a3}{%
            family={Kondrashov},
@@ -88,6 +171,61 @@
       \endverb
       \verb{url}
       \verb https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014GL059741
+      \endverb
+    \endentry
+    \entry{OMNI_LRO_doc}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f7033c9aaee63b4ffdf3ca8e8387af39}{%
+           family={{NASA/GSFC Space Physics Data Facility}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7033c9aaee63b4ffdf3ca8e8387af39}
+      \strng{fullhash}{f7033c9aaee63b4ffdf3ca8e8387af39}
+      \strng{fullhashraw}{f7033c9aaee63b4ffdf3ca8e8387af39}
+      \strng{bibnamehash}{f7033c9aaee63b4ffdf3ca8e8387af39}
+      \strng{authorbibnamehash}{f7033c9aaee63b4ffdf3ca8e8387af39}
+      \strng{authornamehash}{f7033c9aaee63b4ffdf3ca8e8387af39}
+      \strng{authorfullhash}{f7033c9aaee63b4ffdf3ca8e8387af39}
+      \strng{authorfullhashraw}{f7033c9aaee63b4ffdf3ca8e8387af39}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentation de la version basse résolution (LRO) d'OMNI}
+      \field{shorthand}{OMNI LRO online documentation}
+      \field{title}{{OMNIWeb} Data Documentation}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://omniweb.gsfc.nasa.gov/html/ow_data.html
+      \endverb
+      \verb{url}
+      \verb https://omniweb.gsfc.nasa.gov/html/ow_data.html
+      \endverb
+    \endentry
+    \entry{SPDF_OMNIWeb}{misc}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{{SPDF} - {OMNIWeb} {Service}}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb SPDF - OMNIWeb Service:C\:\\Users\\pierr\\Zotero\\storage\\LESWXIIA\\omniweb.gsfc.nasa.gov.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://omniweb.gsfc.nasa.gov/
+      \endverb
+      \verb{url}
+      \verb https://omniweb.gsfc.nasa.gov/
       \endverb
     \endentry
   \enddatalist

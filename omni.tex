@@ -1,12 +1,94 @@
-\section*{OMNI Database}
-\addcontentsline{toc}{chapter}{OMNI, une base de données regroupant les observations du milieu interplanétaire depuis plusieurs décennies}
 
-\section*{Construction et Objectifs}
-\addcontentsline{toc}{section}{Construction et Objectifs}
+\chapter{OMNI, une base de données regroupant les observations du milieu interplanétaire depuis plusieurs décennies}
 
-\section*{Instruments et Paramètres}
-\addcontentsline{toc}{section}{Instruments et Paramètres}
+OMNI\footnote{OMNI n'est pas un acronyme, le nom souhaite simplement souligner la diversité des sources de relevés} est une base de données de la \acrshort{nasa} qui rassemble les mesures du vent solaire et du champ magnétique interplanétaire faites près de la Terre (\cite{SPDF_OMNIWeb}). 
+Elle est très utilisée en physique solaire, géophysique et en météorologie de l'espace. 
+Cette section présente comment OMNI est construite, à quoi elle sert et quelles données elle contient.
 
-\section*{Données manquantes}
-\addcontentsline{toc}{section}{Données manquantes}
+\section{Description}
+
+\paragraph{Objectifs et création}
+L'objectif principal d'OMNI est de permettre l'étude des couplages et relations Terre-Soleil, notamment les effets des variations du vent solaire sur la magnétosphère et l'ionosphère (\cite{OMNI_HRO_doc}).
+Pour cette raison, OMNI regroupe dans une même base de données des informations sur le vent solaire, les particules énergétiques et plusieurs indices géomagnétiques. 
+OMNI a été créée et est maintenue par J.~H.~King et N.~E.~Papitashvili, au centre de données \acrshort{spdf} (\acrlong{spdf}) de la NASA. 
+Le relevé de données commence en Novembre 1963, avec le lancement du satellite \acrshort{imp}~1 (\cite{OMNI2_doc}). 
+Or, depuis 1963, on compte plusieurs satellites et instruments de relevé qui se sont succédés. 
+OMNI assemble donc les mesures de plusieurs missions pour former une série longue et continue (voir \hyperref[biais]{II.1 - Biais et normalisation}). 
+
+\paragraph{Versions et résolutions}
+Il existe deux versions de la base : OMNI et OMNI2. 
+OMNI est la version d'origine tandis que OMNI2 en est une version améliorée qui utilise une nouvelle méthode de décalage temporel pour \acrshort{isee}~3, Wind et ACE (voir \hyperref[localisation]{II.1 - Localisation}). 
+Elle intègre aussi d'autres paramètres absents de la première version.
+
+Les données OMNI sont également disponibles à plusieurs résolutions temporelles.
+La haute résolution (\acrshort{hro}) correspond aux relevés de 1 minute et de 5 minutes depuis 1981. 
+La basse résolution correspond à des relevés ou moyennes horaires, journalières et sur 27 jours\footnote{correspondant environ à une rotation solaire} depuis 1963. 
+Elle possède davantage de paramètres car certains indices sont actualisés toutes les heures uniquement  (voir \hyperref[paramètres]{II.1 - Paramètres}). 
+
+Pour la suite du rapport, sans indication contraire, on supposera que OMNI est la version 2 avec une résolution horaire. 
+
+
+
+\paragraph{Satellites et instruments}
+La force d'OMNI est qu'elle regroupe plusieurs instruments de différentes missions spatiales. 
+Les données proviennent en effet d'une quinzaine de satellites en orbite autour de la Terre, et des satellites \acrshort{isee}~3, Wind et ACE, au point Lagrange $L_1$ (\cite{OMNI2_doc}). 
+
+Les tableaux~\ref{tab:omni_imf} et~\ref{tab:omni_plasma} donnent, pour chaque mission, le responsable scientifique, la période utilisée et la référence. 
+
+% FIGURE 1 (conseillée) : frise chronologique des satellites utilisés dans OMNI
+% (IMP 8 : 1973--2000, Geotail : 1995--2006, Wind : 1995--aujourd'hui,
+%  ACE : 1998--2024, DSCOVR : 2016--2019 -- dates tirées de la documentation HRO).
+% Elle montre bien que la série est un assemblage de plusieurs missions.
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=0.9\textwidth]{figures/omni_spacecraft_timeline.pdf}
+%   \caption{Satellites utilisés pour construire OMNI. \textit{(à compléter)}}
+%   \label{fig:omni_timeline}
+% \end{figure}
+
+
+\paragraph{Paramètres}
+\label{paramètres}
+%il faut refaire ce paragraphe
+Le tableau  résume les principaux paramètres des versions 1 min et 5 min. 
+Les composantes vectorielles sont données dans les repères GSE et GSM. 
+La version horaire contient les mêmes grandes familles de paramètres ainsi que des données utiles sur le long terme : le rapport entre les densités des particules alpha et des protons, des flux de particules énergétiques, le nombre de taches solaires et les indices Kp et Dst (\cite{OMNI2_doc}). 
+%textit{(Les indices ap, F10.7 et le nombre de taches solaires sont listés pour les moyennes journalières et sur 27 jours ; à confirmer pour la version horaire.)} 
+La version 5 minutes ajoute des flux de protons de plus de 10, 30 et 60~MeV mesurés par les satellites GOES, disponibles seulement en 5 minutes. 
+Les indices AE, AL, AU et SYM/H sont calculés à une minute par le centre de données de Kyoto (\cite{OMNI_HRO_doc}).
+
+
+
+
+\paragraph{Localisation}
+\label{localisation}
+Les satellites n'étant pas tous à la même position spatiale, les données sont donc ramenées à un même point de référence, le nez du bow shock terrestre. 
+C'est le point de l'onde de choc situé face au Soleil, juste avant la magnétosphère. 
+Pour cela, chaque mesure est décalée dans le temps. 
+Les auteurs supposent que le vent solaire transporte des fronts plans et que les mêmes valeurs seront observées plus tard au nez du bow shock (voir \S 12. \cite{OMNI_LRO_doc}). 
+\textit{des papiers ont critiqués cette hypothèse linéaire en comparant à des données d'autres satellites geo} \\
+La date associée à chaque valeur est donc la date d'arrivée au nez du bow shock, et non la date de mesure. 
+Pour les données horaires, le décalage est fait avec des mesures de résolution plus fine (1 à 5 minutes), puis la moyenne horaire est calculée à l'heure terrestre (\cite{OMNI_HRO_doc, OMNI2_doc}).
+
+
+\paragraph{Biais et normalisation}
+\label{biais}
+Les instruments des différents satellites ne donnent pas exactement les mêmes valeurs et peuvent introduire des biais dans la continuité.
+Pour éviter cela, les chercheurs ont mis en place une normalisation de certaines données (voir \S 13. \cite{OMNI_LRO_doc}). 
+
+Cette normalisation est également accompagnée d'une priorité quand deux satellites fournissent la même information sur la même période (voir \S 8. \cite{OMNI_LRO_doc}). 
+
+\vspace{1cm}
+
+Avec la rapide description de la base de données, on peut se rendre compte que les données accessibles sont déjà pré-traitées. 
+Au moment de les télécharger, tous les calculs de décalage temporel, normalisation, priorité, moyenne sont déjà effectués. 
+Il ne nous est donc pas nécessaire de devoir le faire et ce n'est d'ailleurs pas l'objet du projet. 
+Cependant, il est important d'être avertis et conscients de ces opérations pour de futures hypothèses.  
+
+
+\section{Données manquantes}
+
+Malgré les efforts des auteurs de la base de données pour prétraiter les données, un problème majeur persiste : les données manquantes. 
+
+
 

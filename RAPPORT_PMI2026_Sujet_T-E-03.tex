@@ -13,15 +13,18 @@
 \usepackage{hyperref}
 \usepackage[acronym]{glossaries}
 \usepackage{subcaption}
+\usepackage{csquotes}
 \usepackage{xcolor}
 \usepackage{colortbl}
 \usepackage{gensymb}
 \usepackage{wrapfig}
 \usepackage{multicol}
+\usepackage{longtable}
 \usepackage{fancyhdr}
 \usepackage{booktabs}
 \usepackage{eurosym}
 \usepackage{titlesec}
+\usepackage{etoolbox}
 \usepackage{subcaption}
 \usepackage{tabularx}        % Tableaux à largeur ajustable
 \usepackage[backend=biber, style=authoryear]{biblatex}
@@ -94,8 +97,13 @@ description={description}}
 \newacronym{ar}{AR}{Active Region}
 \newacronym{sep}{SEP}{Solar Energetic Particle}
 \newacronym{cme}{CME}{Coronal Mass Ejection}
-
-
+\newacronym{nasa}{NASA}{National Aeronautics and Space Administration}
+\newacronym{spdf}{SPDF}{Space Physics Data Facility}
+\newacronym{ace}{ACE}{Advanced Composition Explorer}
+\newacronym{imp}{IMP}{Interplanetary Monitoring Platform}
+\newacronym{imf}{IMF}{Interplanetary Magnetic Field}
+\newacronym{isee}{ISEE}{International Sun-Earth Explorer}
+\newacronym{hro}{HRO}{High Resolution OMNI}
 
 % Marges et mise en page
 \geometry{
@@ -118,12 +126,12 @@ description={description}}
 
 \begin{document}
 
-\include{0.couverture}
+\include{couverture}
 
 \setcounter{page}{2}
-\include{1. remerciements}
+\include{remerciements}
 
-\include{2. sommaire}
+\include{sommaire}
 
 \include{introduction}
 
@@ -133,11 +141,13 @@ description={description}}
 
 \include{state_of_the_art}
 
-\include{9. Bibliographie-Webographie}
+\include{Bibliographie-Webographie}
 
-\include{10 abreviations}
+\include{abreviations}
 
-\include{11. glossaire}
+\include{glossaire}
+
+\include{annexes}
 
 
 

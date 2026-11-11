@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.14)  8 NOV 2026 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.14)  11 NOV 2026 16:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -451,7 +451,23 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count358
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count359
-) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2026-05-19 v5.2p context-sensitive quotations (JAW)
+\csq@reset=\count360
+\csq@gtype=\count361
+\csq@glevel=\count362
+\csq@qlevel=\count363
+\csq@maxlvl=\count364
+\csq@tshold=\count365
+\csq@ltx@everypar=\toks38
+ (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2026-05-19 v5.2p csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
  (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -474,33 +490,33 @@ Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
 \col@sep=\dimen271
 \ar@mcellbox=\box62
 \extrarowheight=\dimen272
-\NC@list=\toks38
+\NC@list=\toks39
 \extratabsurround=\skip68
 \backup@length=\skip69
 \ar@cellbox=\box63
 )
 new hooks used!!
 \minrowclearance=\skip70
-\rownum=\count360
+\rownum=\count366
 ) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/gensymb\gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
 ) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen273
 \WF@size=\dimen274
-\c@WF@wrappedlines=\count361
+\c@WF@wrappedlines=\count367
 \WF@box=\box64
-\WF@everypar=\toks39
+\WF@everypar=\toks40
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count362
+\c@tracingmulticols=\count368
 \mult@box=\box65
 \multicol@leftmargin=\dimen275
-\c@unbalance=\count363
-\c@collectmore=\count364
-\doublecol@number=\count365
-\multicoltolerance=\count366
-\multicolpretolerance=\count367
+\c@unbalance=\count369
+\c@collectmore=\count370
+\doublecol@number=\count371
+\multicoltolerance=\count372
+\multicolpretolerance=\count373
 \full@width=\dimen276
 \page@free=\dimen277
 \premulticols=\dimen278
@@ -551,16 +567,16 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box106
 \@tempa=\box107
 \@tempa=\box108
-\c@minrows=\count368
-\c@columnbadness=\count369
-\c@finalcolumnbadness=\count370
+\c@minrows=\count374
+\c@columnbadness=\count375
+\c@finalcolumnbadness=\count376
 \last@try=\dimen281
 \multicolovershoot=\dimen282
 \multicolundershoot=\dimen283
 \mult@nat@firstbox=\box109
 \colbreak@box=\box110
-\mc@col@check@num=\count371
-\g__mc_curr_col_int=\count372
+\mc@col@check@num=\count377
+\g__mc_curr_col_int=\count378
 ) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip73
@@ -577,7 +593,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip84
 \f@nch@widthC=\skip85
 \f@nch@widthR=\skip86
-\@temptokenb=\toks40
+\@temptokenb=\toks41
 ) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen284
@@ -590,12 +606,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen291
 \cmidrulekern=\dimen292
 \defaultaddspace=\dimen293
-\@cmidla=\count373
-\@cmidlb=\count374
+\@cmidla=\count379
+\@cmidlb=\count380
 \@aboverulesep=\dimen294
 \@belowrulesep=\dimen295
-\@thisruleclass=\count375
-\@lastruleclass=\count376
+\@thisruleclass=\count381
+\@lastruleclass=\count382
 \@thisrulewidth=\dimen296
 ) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
@@ -607,7 +623,7 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \aftertitleunit=\skip88
 \ttl@plus=\dimen297
 \ttl@minus=\dimen298
-\ttl@toksa=\toks41
+\ttl@toksa=\toks42
 \titlewidth=\dimen299
 \titlewidthlast=\dimen300
 \titlewidthfirst=\dimen301
@@ -618,59 +634,59 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@old@col=\dimen304
 \TX@target=\dimen305
 \TX@delta=\dimen306
-\TX@cols=\count377
-\TX@ftn=\toks42
+\TX@cols=\count383
+\TX@ftn=\toks43
 ) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count378
+\lrq@indent=\count384
  (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count379
-\c@listtotal=\count380
-\c@listcount=\count381
-\c@liststart=\count382
-\c@liststop=\count383
-\c@citecount=\count384
-\c@citetotal=\count385
-\c@multicitecount=\count386
-\c@multicitetotal=\count387
-\c@instcount=\count388
-\c@maxnames=\count389
-\c@minnames=\count390
-\c@maxitems=\count391
-\c@minitems=\count392
-\c@citecounter=\count393
-\c@maxcitecounter=\count394
-\c@savedcitecounter=\count395
-\c@uniquelist=\count396
-\c@uniquename=\count397
-\c@refsection=\count398
-\c@refsegment=\count399
-\c@maxextratitle=\count400
-\c@maxextratitleyear=\count401
-\c@maxextraname=\count402
-\c@maxextradate=\count403
-\c@maxextraalpha=\count404
-\c@abbrvpenalty=\count405
-\c@highnamepenalty=\count406
-\c@lownamepenalty=\count407
-\c@maxparens=\count408
-\c@parenlevel=\count409
-\blx@tempcnta=\count410
-\blx@tempcntb=\count411
-\blx@tempcntc=\count412
-\c@blx@maxsection=\count413
-\blx@maxsegment@0=\count414
-\blx@notetype=\count415
-\blx@parenlevel@text=\count416
-\blx@parenlevel@foot=\count417
-\blx@sectionciteorder@0=\count418
-\blx@sectionciteorderinternal@0=\count419
-\blx@entrysetcounter=\count420
-\blx@biblioinstance=\count421
+\c@tabx@nest=\count385
+\c@listtotal=\count386
+\c@listcount=\count387
+\c@liststart=\count388
+\c@liststop=\count389
+\c@citecount=\count390
+\c@citetotal=\count391
+\c@multicitecount=\count392
+\c@multicitetotal=\count393
+\c@instcount=\count394
+\c@maxnames=\count395
+\c@minnames=\count396
+\c@maxitems=\count397
+\c@minitems=\count398
+\c@citecounter=\count399
+\c@maxcitecounter=\count400
+\c@savedcitecounter=\count401
+\c@uniquelist=\count402
+\c@uniquename=\count403
+\c@refsection=\count404
+\c@refsegment=\count405
+\c@maxextratitle=\count406
+\c@maxextratitleyear=\count407
+\c@maxextraname=\count408
+\c@maxextradate=\count409
+\c@maxextraalpha=\count410
+\c@abbrvpenalty=\count411
+\c@highnamepenalty=\count412
+\c@lownamepenalty=\count413
+\c@maxparens=\count414
+\c@parenlevel=\count415
+\blx@tempcnta=\count416
+\blx@tempcntb=\count417
+\blx@tempcntc=\count418
+\c@blx@maxsection=\count419
+\blx@maxsegment@0=\count420
+\blx@notetype=\count421
+\blx@parenlevel@text=\count422
+\blx@parenlevel@foot=\count423
+\blx@sectionciteorder@0=\count424
+\blx@sectionciteorderinternal@0=\count425
+\blx@entrysetcounter=\count426
+\blx@biblioinstance=\count427
 \labelnumberwidth=\skip89
 \labelalphawidth=\skip90
 \biblabelsep=\skip91
@@ -682,9 +698,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count422
-\c@maxcomprange=\count423
-\c@mincompwidth=\count424
+\c@mincomprange=\count428
+\c@maxcomprange=\count429
+\c@mincompwidth=\count430
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -694,74 +710,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count425
-\c@savedafterword=\count426
-\c@annotator=\count427
-\c@savedannotator=\count428
-\c@author=\count429
-\c@savedauthor=\count430
-\c@bookauthor=\count431
-\c@savedbookauthor=\count432
-\c@commentator=\count433
-\c@savedcommentator=\count434
-\c@editor=\count435
-\c@savededitor=\count436
-\c@editora=\count437
-\c@savededitora=\count438
-\c@editorb=\count439
-\c@savededitorb=\count440
-\c@editorc=\count441
-\c@savededitorc=\count442
-\c@foreword=\count443
-\c@savedforeword=\count444
-\c@holder=\count445
-\c@savedholder=\count446
-\c@introduction=\count447
-\c@savedintroduction=\count448
-\c@namea=\count449
-\c@savednamea=\count450
-\c@nameb=\count451
-\c@savednameb=\count452
-\c@namec=\count453
-\c@savednamec=\count454
-\c@translator=\count455
-\c@savedtranslator=\count456
-\c@shortauthor=\count457
-\c@savedshortauthor=\count458
-\c@shorteditor=\count459
-\c@savedshorteditor=\count460
-\c@labelname=\count461
-\c@savedlabelname=\count462
-\c@institution=\count463
-\c@savedinstitution=\count464
-\c@lista=\count465
-\c@savedlista=\count466
-\c@listb=\count467
-\c@savedlistb=\count468
-\c@listc=\count469
-\c@savedlistc=\count470
-\c@listd=\count471
-\c@savedlistd=\count472
-\c@liste=\count473
-\c@savedliste=\count474
-\c@listf=\count475
-\c@savedlistf=\count476
-\c@location=\count477
-\c@savedlocation=\count478
-\c@organization=\count479
-\c@savedorganization=\count480
-\c@origlocation=\count481
-\c@savedoriglocation=\count482
-\c@origpublisher=\count483
-\c@savedorigpublisher=\count484
-\c@publisher=\count485
-\c@savedpublisher=\count486
-\c@language=\count487
-\c@savedlanguage=\count488
-\c@origlanguage=\count489
-\c@savedoriglanguage=\count490
-\c@pageref=\count491
-\c@savedpageref=\count492
+\c@afterword=\count431
+\c@savedafterword=\count432
+\c@annotator=\count433
+\c@savedannotator=\count434
+\c@author=\count435
+\c@savedauthor=\count436
+\c@bookauthor=\count437
+\c@savedbookauthor=\count438
+\c@commentator=\count439
+\c@savedcommentator=\count440
+\c@editor=\count441
+\c@savededitor=\count442
+\c@editora=\count443
+\c@savededitora=\count444
+\c@editorb=\count445
+\c@savededitorb=\count446
+\c@editorc=\count447
+\c@savededitorc=\count448
+\c@foreword=\count449
+\c@savedforeword=\count450
+\c@holder=\count451
+\c@savedholder=\count452
+\c@introduction=\count453
+\c@savedintroduction=\count454
+\c@namea=\count455
+\c@savednamea=\count456
+\c@nameb=\count457
+\c@savednameb=\count458
+\c@namec=\count459
+\c@savednamec=\count460
+\c@translator=\count461
+\c@savedtranslator=\count462
+\c@shortauthor=\count463
+\c@savedshortauthor=\count464
+\c@shorteditor=\count465
+\c@savedshorteditor=\count466
+\c@labelname=\count467
+\c@savedlabelname=\count468
+\c@institution=\count469
+\c@savedinstitution=\count470
+\c@lista=\count471
+\c@savedlista=\count472
+\c@listb=\count473
+\c@savedlistb=\count474
+\c@listc=\count475
+\c@savedlistc=\count476
+\c@listd=\count477
+\c@savedlistd=\count478
+\c@liste=\count479
+\c@savedliste=\count480
+\c@listf=\count481
+\c@savedlistf=\count482
+\c@location=\count483
+\c@savedlocation=\count484
+\c@organization=\count485
+\c@savedorganization=\count486
+\c@origlocation=\count487
+\c@savedoriglocation=\count488
+\c@origpublisher=\count489
+\c@savedorigpublisher=\count490
+\c@publisher=\count491
+\c@savedpublisher=\count492
+\c@language=\count493
+\c@savedlanguage=\count494
+\c@origlanguage=\count495
+\c@savedoriglanguage=\count496
+\c@pageref=\count497
+\c@savedpageref=\count498
 \shorthandwidth=\skip97
 \shortjournalwidth=\skip98
 \shortserieswidth=\skip99
@@ -785,19 +801,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count493
-\c@textcitetotal=\count494
-\c@textcitemaxnames=\count495
-\c@biburlbigbreakpenalty=\count496
-\c@biburlbreakpenalty=\count497
-\c@biburlnumpenalty=\count498
-\c@biburlucpenalty=\count499
-\c@biburllcpenalty=\count500
+\c@textcitecount=\count499
+\c@textcitetotal=\count500
+\c@textcitemaxnames=\count501
+\c@biburlbigbreakpenalty=\count502
+\c@biburlbreakpenalty=\count503
+\c@biburlnumpenalty=\count504
+\c@biburlucpenalty=\count505
+\c@biburllcpenalty=\count506
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count501
+\c@smartand=\count507
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -807,8 +823,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count502
-\c@bbx:relatedtotal=\count503
+\c@bbx:relatedcount=\count508
+\c@bbx:relatedtotal=\count509
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -833,7 +849,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2026-05-26 L3 programming layer (loader) 
  (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count504
+\l__color_backend_stack_int=\count510
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2026-05-26 L3 programming layer (loader) 
@@ -848,57 +864,54 @@ Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 \glo@main@file=\write5
 \openout5 = `RAPPORT_PMI2026_Sujet_T-E-03.glo'.
 
-Package glossaries Info: Writing glossary file RAPPORT_PMI2026_Sujet_T-E-03.glo on input line 80.
+Package glossaries Info: Writing glossary file RAPPORT_PMI2026_Sujet_T-E-03.glo on input line 83.
 \glo@acronym@file=\write6
 \openout6 = `RAPPORT_PMI2026_Sujet_T-E-03.acn'.
 
-Package glossaries Info: Writing glossary file RAPPORT_PMI2026_Sujet_T-E-03.acn on input line 80.
-Package hyperref Info: Option `colorlinks' set `false' on input line 116.
-
-
-Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
-(biblatex)                Loading 'csquotes' recommended.
-
-\@quotelevel=\count505
-\@quotereset=\count506
-(RAPPORT_PMI2026_Sujet_T-E-03.aux (0.couverture.aux)
+Package glossaries Info: Writing glossary file RAPPORT_PMI2026_Sujet_T-E-03.acn on input line 83.
+Package hyperref Info: Option `colorlinks' set `false' on input line 124.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'french'.
+ (RAPPORT_PMI2026_Sujet_T-E-03.aux (couverture.aux)
 Package babel Info: 'french' activates 'french' shorthands.
 (babel)             Reported on input line 22.
- (1. remerciements.aux) (2. sommaire.aux) (introduction.aux) (contexte_physique.aux) (omni.aux) (state_of_the_art.aux) (9. Bibliographie-Webographie.aux) (10 abreviations.aux) (11. glossaire.aux))
+ (remerciements.aux) (sommaire.aux) (introduction.aux) (contexte_physique.aux) (omni.aux) (state_of_the_art.aux) (Bibliographie-Webographie.aux) (abreviations.aux) (glossaire.aux) (annexes.aux))
 \openout1 = `RAPPORT_PMI2026_Sujet_T-E-03.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Info: Redefining \degres on input line 119.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Info: Redefining \degres on input line 127.
  (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count507
+\scratchcounter=\count511
 \scratchdimen=\dimen307
 \scratchbox=\box113
-\nofMPsegments=\count508
-\nofMParguments=\count509
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count510
+\nofMPsegments=\count512
+\nofMParguments=\count513
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count514
 \MPscratchDim=\dimen308
-\MPnumerator=\count511
-\makeMPintoPDFobject=\count512
-\everyMPtoPDFconversion=\toks44
+\MPnumerator=\count515
+\makeMPintoPDFobject=\count516
+\everyMPtoPDFconversion=\toks45
 ) (C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -939,7 +952,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 119.
+Package hyperref Info: Link coloring OFF on input line 127.
 (RAPPORT_PMI2026_Sujet_T-E-03.out) (RAPPORT_PMI2026_Sujet_T-E-03.out)
 \@outlinefile=\write7
 \openout7 = `RAPPORT_PMI2026_Sujet_T-E-03.out'.
@@ -947,14 +960,14 @@ Package hyperref Info: Link coloring OFF on input line 119.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 119.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 119.
+LaTeX Info: Redefining \celsius on input line 127.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 127.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 119.
-Package gensymb Info: Using \Omega for \ohm on input line 119.
+LaTeX Info: Redefining \ohm on input line 127.
+Package gensymb Info: Using \Omega for \ohm on input line 127.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -971,22 +984,22 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'RAPPORT_PMI2026_Sujet_T-E-03.bbl' found.
  (RAPPORT_PMI2026_Sujet_T-E-03.bbl)
-Package biblatex Info: Reference section=0 on input line 119.
-Package biblatex Info: Reference segment=0 on input line 119.
-\openout2 = `0.couverture.aux'.
+Package biblatex Info: Reference section=0 on input line 127.
+Package biblatex Info: Reference segment=0 on input line 127.
+\openout2 = `couverture.aux'.
 
- (0.couverture.tex
-<logos/IPSA_LOGO_2024_QUADRI.png, id=88, 1231.2399pt x 944.0871pt>
+ (couverture.tex
+<logos/IPSA_LOGO_2024_QUADRI.png, id=100, 1231.2399pt x 944.0871pt>
 File: logos/IPSA_LOGO_2024_QUADRI.png Graphic file (type png)
 <use logos/IPSA_LOGO_2024_QUADRI.png>
 Package pdftex.def Info: logos/IPSA_LOGO_2024_QUADRI.png  used on input line 14.
 (pdftex.def)             Requested size: 91.04872pt x 69.80948pt.
-<logos/ONERA_logo.png, id=90, 236.082pt x 54.6843pt>
+<logos/ONERA_logo.png, id=102, 236.082pt x 54.6843pt>
 File: logos/ONERA_logo.png Graphic file (type png)
 <use logos/ONERA_logo.png>
 Package pdftex.def Info: logos/ONERA_logo.png  used on input line 22.
 (pdftex.def)             Requested size: 184.9429pt x 42.83879pt.
-<images/cover1.jpg, id=91, 1927.2pt x 1136.245pt>
+<images/cover1.jpg, id=103, 1927.2pt x 1136.245pt>
 File: images/cover1.jpg Graphic file (type jpg)
 <use images/cover1.jpg>
 Package pdftex.def Info: images/cover1.jpg  used on input line 39.
@@ -997,16 +1010,16 @@ Package pdftex.def Info: images/cover1.jpg  used on input line 39.
 
 
 {C:/Users/pierr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logos/IPSA_LOGO_2024_QUADRI.png> <./logos/ONERA_logo.png> <./images/cover1.jpg>])
-\openout2 = `"1. remerciements.aux"'.
+\openout2 = `remerciements.aux'.
 
- (1. remerciements.tex) [2
+ (remerciements.tex) [2
 
 
 
 ]
-\openout2 = `"2. sommaire.aux"'.
+\openout2 = `sommaire.aux'.
 
- (2. sommaire.tex (RAPPORT_PMI2026_Sujet_T-E-03.toc)
+ (sommaire.tex (RAPPORT_PMI2026_Sujet_T-E-03.toc)
 \tf@toc=\write8
 \openout8 = `RAPPORT_PMI2026_Sujet_T-E-03.toc'.
 
@@ -1026,24 +1039,25 @@ Package pdftex.def Info: images/cover1.jpg  used on input line 39.
 \openout2 = `contexte_physique.aux'.
 
  (contexte_physique.tex
+Chapitre I.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 5.
+(hyperref)                be the same. Added a new anchor on input line 4.
 
-<images/Sun layers.png, id=152, 512.66531pt x 482.55281pt>
+<images/Sun layers.png, id=166, 512.66531pt x 482.55281pt>
 File: images/Sun layers.png Graphic file (type png)
 <use images/Sun layers.png>
-Package pdftex.def Info: images/Sun layers.png  used on input line 11.
+Package pdftex.def Info: images/Sun layers.png  used on input line 10.
 (pdftex.def)             Requested size: 227.62206pt x 214.25304pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-<images/sunspot.jpg, id=158, 722.7pt x 479.6319pt>
+<images/sunspot.jpg, id=172, 722.7pt x 479.6319pt>
 File: images/sunspot.jpg Graphic file (type jpg)
 <use images/sunspot.jpg>
-Package pdftex.def Info: images/sunspot.jpg  used on input line 41.
+Package pdftex.def Info: images/sunspot.jpg  used on input line 40.
 (pdftex.def)             Requested size: 364.19667pt x 241.70355pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1052,109 +1066,285 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
+
  <./images/Sun layers.png>]
-<images/X9 flare.png, id=178, 1084.05pt x 855.195pt>
+<images/X9 flare.png, id=192, 1084.05pt x 855.195pt>
 File: images/X9 flare.png Graphic file (type png)
 <use images/X9 flare.png>
-Package pdftex.def Info: images/X9 flare.png  used on input line 70.
+Package pdftex.def Info: images/X9 flare.png  used on input line 69.
 (pdftex.def)             Requested size: 227.62206pt x 179.5571pt.
-<images/cme.png, id=181, 513.92pt x 513.92pt>
+<images/cme.png, id=195, 513.92pt x 513.92pt>
 File: images/cme.png Graphic file (type png)
 <use images/cme.png>
-Package pdftex.def Info: images/cme.png  used on input line 76.
+Package pdftex.def Info: images/cme.png  used on input line 75.
 (pdftex.def)             Requested size: 182.09486pt x 182.0939pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--90
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
 
  []
 
 [6 <./images/sunspot.jpg>]
-<images/sep events.png, id=195, 1276.01718pt x 503.63156pt>
+<images/sep events.png, id=209, 1276.01718pt x 503.63156pt>
 File: images/sep events.png Graphic file (type png)
 <use images/sep events.png>
-Package pdftex.def Info: images/sep events.png  used on input line 102.
+Package pdftex.def Info: images/sep events.png  used on input line 101.
 (pdftex.def)             Requested size: 295.90588pt x 116.78574pt.
 ) [7 <./images/X9 flare.png> <./images/cme.png> <./images/sep events.png>]
 \openout2 = `omni.aux'.
 
  (omni.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 5.
-
-) [8
+Chapitre II.
+[8
 
 
 
-]
+
+]) [9]
 \openout2 = `state_of_the_art.aux'.
 
  (state_of_the_art.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 5.
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 13.
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 27.
-
-) [9
-
-
-
-]
-\openout2 = `"9. Bibliographie-Webographie.aux"'.
-
- (9. Bibliographie-Webographie.tex) [10
+Chapitre III.
+) [10
 
 
 
 
 ]
-\openout2 = `"10 abreviations.aux"'.
+\openout2 = `Bibliographie-Webographie.aux'.
 
- (10 abreviations.tex
+ (Bibliographie-Webographie.tex) [11
+
+
+
+
+]
+\openout2 = `abreviations.aux'.
+
+ (abreviations.tex
 No file RAPPORT_PMI2026_Sujet_T-E-03.acr.
-) [11
-
-
-
-]
-\openout2 = `"11. glossaire.aux"'.
-
- (11. glossaire.tex
-No file RAPPORT_PMI2026_Sujet_T-E-03.gls.
 ) [12
 
 
 
-] (RAPPORT_PMI2026_Sujet_T-E-03.aux (0.couverture.aux) (1. remerciements.aux) (2. sommaire.aux) (introduction.aux) (contexte_physique.aux) (omni.aux) (state_of_the_art.aux) (9. Bibliographie-Webographie.aux) (10 abreviations.aux) (11. glossaire.aux))
+]
+\openout2 = `glossaire.aux'.
+
+ (glossaire.tex
+No file RAPPORT_PMI2026_Sujet_T-E-03.gls.
+) [13
+
+
+
+]
+\openout2 = `annexes.aux'.
+
+ (annexes.tex
+Overfull \hbox (15.20149pt too wide) in alignment at lines 77--83
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.20149pt too wide) in alignment at lines 83--88
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.20149pt too wide) in alignment at lines 88--91
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.20149pt too wide) in alignment at lines 91--93
+ [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 96--97
+[]|\T1/cmr/m/n/10 0 à 23 ; ^^S 1 ^^T =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\T1/cmr/m/n/10 Nombre de points dans la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]|\T1/cmr/m/n/10 Nombre de points dans la
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 104--104
+[]|\T1/cmr/m/n/10 Angle de la-ti-tude du vec-teur
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 133--133
+[]|\T1/cmr/m/n/10 Nombre de taches so-laires $\OML/cmm/m/it/10 R$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\T1/cmr/m/n/10 cm$[]$ s$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\T1/cmr/m/n/10 cm$[]$ s$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/cmr/m/n/10 cm$[]$ s$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\T1/cmr/m/n/10 cm$[]$ s$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\T1/cmr/m/n/10 cm$[]$ s$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]|\T1/cmr/m/n/10 cm$[]$ s$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|$\OT1/cmr/m/n/10 10[]$ \T1/cmr/m/n/10 W
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 148--148
+[]|\T1/cmr/m/n/10 Nombre de Mach ma-gné-to-so-
+ []
+
+
+Overfull \hbox (15.20149pt too wide) in alignment at lines 93--151
+ [] [] [] [] [] [] 
+ []
+
+[14
+
+
+
+] [15]
+Overfull \hbox (15.20149pt too wide) in alignment at lines 163--169
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.20149pt too wide) in alignment at lines 169--174
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.20149pt too wide) in alignment at lines 174--177
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.20149pt too wide) in alignment at lines 177--179
+ [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\T1/cmr/m/n/10 Nombre de points dans la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\T1/cmr/m/n/10 Nombre de points dans la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+[]|\T1/cmr/m/n/10 Temps entre ob-ser-va-tions
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 192--193
+[]|\T1/cmr/m/n/10 Une va-leur né-ga-tive
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 192--193
+\T1/cmr/m/n/10 in-dique une ar-ri-vée
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 224--225
+[]|\T1/cmr/m/n/10 Université tech-nique
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 225--225
+[]|\T1/cmr/m/n/10 Nombre de Mach ma-gné-to-so-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
+[]|\T1/cmr/m/n/10 cm$[]$ s$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[]|\T1/cmr/m/n/10 cm$[]$ s$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+[]|\T1/cmr/m/n/10 cm$[]$ s$[]$
+ []
+
+
+Overfull \hbox (15.20149pt too wide) in alignment at lines 179--229
+ [] [] [] [] [] [] 
+ []
+
+[16]) [17] [18] (RAPPORT_PMI2026_Sujet_T-E-03.aux (couverture.aux) (remerciements.aux) (sommaire.aux) (introduction.aux) (contexte_physique.aux) (omni.aux) (state_of_the_art.aux) (Bibliographie-Webographie.aux) (abreviations.aux) (glossaire.aux) (annexes.aux))
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
 Package rerunfilecheck Info: File `RAPPORT_PMI2026_Sujet_T-E-03.out' has not changed.
-(rerunfilecheck)             Checksum: CE394DCE346B2850C7AD3FF8F7B39D67;5536.
+(rerunfilecheck)             Checksum: 26124DAFB6C73C92837974DF1CDBF69E;5356.
 Package logreq Info: Writing requests to 'RAPPORT_PMI2026_Sujet_T-E-03.run.xml'.
 \openout1 = `RAPPORT_PMI2026_Sujet_T-E-03.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30066 strings out of 467509
- 581108 string characters out of 5408779
- 1493391 words of memory out of 5000000
- 58876 multiletter control sequences out of 15000+600000
- 644279 words of font info for 70 fonts, out of 8000000 for 9000
+ 30980 strings out of 467509
+ 596088 string characters out of 5408779
+ 1573452 words of memory out of 5000000
+ 59739 multiletter control sequences out of 15000+600000
+ 646535 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,11n,131p,2590b,1820s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,11n,131p,2590b,1822s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{glo:hro} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:isee} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:imp} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:spdf} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:nasa} has been referenced but does not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{glo:cme} has been referenced but does not exist, replaced by a fixed one
 
@@ -1170,10 +1360,10 @@ pdfTeX warning (dest): name{glo:ml} has been referenced but does not exist, repl
 
 pdfTeX warning (dest): name{glo:swx} has been referenced but does not exist, replaced by a fixed one
 
- <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1200.pk><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on RAPPORT_PMI2026_Sujet_T-E-03.pdf (12 pages, 3446623 bytes).
+ <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1000.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\pierr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1200.pk><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/pierr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on RAPPORT_PMI2026_Sujet_T-E-03.pdf (18 pages, 3624219 bytes).
 PDF statistics:
- 697 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
+ 1068 PDF objects out of 1200 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

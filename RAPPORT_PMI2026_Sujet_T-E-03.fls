@@ -167,6 +167,14 @@ INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.st
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
@@ -237,15 +245,15 @@ OUTPUT RAPPORT_PMI2026_Sujet_T-E-03.acn
 INPUT .\RAPPORT_PMI2026_Sujet_T-E-03.aux
 INPUT .\RAPPORT_PMI2026_Sujet_T-E-03.aux
 INPUT RAPPORT_PMI2026_Sujet_T-E-03.aux
-INPUT .\0.couverture.aux
-INPUT .\0.couverture.aux
-INPUT 0.couverture.aux
-INPUT .\1. remerciements.aux
-INPUT .\1. remerciements.aux
-INPUT 1. remerciements.aux
-INPUT .\2. sommaire.aux
-INPUT .\2. sommaire.aux
-INPUT 2. sommaire.aux
+INPUT .\couverture.aux
+INPUT .\couverture.aux
+INPUT couverture.aux
+INPUT .\remerciements.aux
+INPUT .\remerciements.aux
+INPUT remerciements.aux
+INPUT .\sommaire.aux
+INPUT .\sommaire.aux
+INPUT sommaire.aux
 INPUT .\introduction.aux
 INPUT .\introduction.aux
 INPUT introduction.aux
@@ -258,15 +266,18 @@ INPUT omni.aux
 INPUT .\state_of_the_art.aux
 INPUT .\state_of_the_art.aux
 INPUT state_of_the_art.aux
-INPUT .\9. Bibliographie-Webographie.aux
-INPUT .\9. Bibliographie-Webographie.aux
-INPUT 9. Bibliographie-Webographie.aux
-INPUT .\10 abreviations.aux
-INPUT .\10 abreviations.aux
-INPUT 10 abreviations.aux
-INPUT .\11. glossaire.aux
-INPUT .\11. glossaire.aux
-INPUT 11. glossaire.aux
+INPUT .\Bibliographie-Webographie.aux
+INPUT .\Bibliographie-Webographie.aux
+INPUT Bibliographie-Webographie.aux
+INPUT .\abreviations.aux
+INPUT .\abreviations.aux
+INPUT abreviations.aux
+INPUT .\glossaire.aux
+INPUT .\glossaire.aux
+INPUT glossaire.aux
+INPUT .\annexes.aux
+INPUT .\annexes.aux
+INPUT annexes.aux
 OUTPUT RAPPORT_PMI2026_Sujet_T-E-03.aux
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -293,12 +304,12 @@ INPUT .\RAPPORT_PMI2026_Sujet_T-E-03.bbl
 INPUT .\RAPPORT_PMI2026_Sujet_T-E-03.bbl
 INPUT .\RAPPORT_PMI2026_Sujet_T-E-03.bbl
 INPUT RAPPORT_PMI2026_Sujet_T-E-03.bbl
-INPUT .\0.couverture.tex
-OUTPUT 0.couverture.aux
-INPUT .\0.couverture.tex
-INPUT .\0.couverture.tex
-INPUT .\0.couverture.tex
-INPUT 0.couverture.tex
+INPUT .\couverture.tex
+INPUT .\couverture.tex
+OUTPUT couverture.aux
+INPUT .\couverture.tex
+INPUT .\couverture.tex
+INPUT couverture.tex
 INPUT .\logos\IPSA_LOGO_2024_QUADRI.png
 INPUT .\logos\IPSA_LOGO_2024_QUADRI.png
 INPUT .\logos\IPSA_LOGO_2024_QUADRI.png
@@ -340,18 +351,18 @@ INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cme
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 OUTPUT RAPPORT_PMI2026_Sujet_T-E-03.ist
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\1. remerciements.tex
-OUTPUT 1. remerciements.aux
-INPUT .\1. remerciements.tex
-INPUT .\1. remerciements.tex
-INPUT .\1. remerciements.tex
-INPUT 1. remerciements.tex
-INPUT .\2. sommaire.tex
-OUTPUT 2. sommaire.aux
-INPUT .\2. sommaire.tex
-INPUT .\2. sommaire.tex
-INPUT .\2. sommaire.tex
-INPUT 2. sommaire.tex
+INPUT .\remerciements.tex
+INPUT .\remerciements.tex
+OUTPUT remerciements.aux
+INPUT .\remerciements.tex
+INPUT .\remerciements.tex
+INPUT remerciements.tex
+INPUT .\sommaire.tex
+INPUT .\sommaire.tex
+OUTPUT sommaire.aux
+INPUT .\sommaire.tex
+INPUT .\sommaire.tex
+INPUT sommaire.tex
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm2074.tfm
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx2074.tfm
 INPUT .\RAPPORT_PMI2026_Sujet_T-E-03.toc
@@ -415,6 +426,7 @@ OUTPUT omni.aux
 INPUT .\omni.tex
 INPUT .\omni.tex
 INPUT omni.tex
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT .\state_of_the_art.tex
 INPUT .\state_of_the_art.tex
 OUTPUT state_of_the_art.aux
@@ -423,36 +435,46 @@ INPUT .\state_of_the_art.tex
 INPUT state_of_the_art.tex
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
-INPUT .\9. Bibliographie-Webographie.tex
-OUTPUT 9. Bibliographie-Webographie.aux
-INPUT .\9. Bibliographie-Webographie.tex
-INPUT .\9. Bibliographie-Webographie.tex
-INPUT .\9. Bibliographie-Webographie.tex
-INPUT 9. Bibliographie-Webographie.tex
-INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
+INPUT .\Bibliographie-Webographie.tex
+INPUT .\Bibliographie-Webographie.tex
+OUTPUT Bibliographie-Webographie.aux
+INPUT .\Bibliographie-Webographie.tex
+INPUT .\Bibliographie-Webographie.tex
+INPUT Bibliographie-Webographie.tex
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
-INPUT .\10 abreviations.tex
-INPUT .\10 abreviations.tex
-OUTPUT 10 abreviations.aux
-INPUT .\10 abreviations.tex
-INPUT .\10 abreviations.tex
-INPUT 10 abreviations.tex
-INPUT .\11. glossaire.tex
-OUTPUT 11. glossaire.aux
-INPUT .\11. glossaire.tex
-INPUT .\11. glossaire.tex
-INPUT .\11. glossaire.tex
-INPUT 11. glossaire.tex
+INPUT .\abreviations.tex
+INPUT .\abreviations.tex
+OUTPUT abreviations.aux
+INPUT .\abreviations.tex
+INPUT .\abreviations.tex
+INPUT abreviations.tex
+INPUT .\glossaire.tex
+INPUT .\glossaire.tex
+OUTPUT glossaire.aux
+INPUT .\glossaire.tex
+INPUT .\glossaire.tex
+INPUT glossaire.tex
+INPUT .\annexes.tex
+INPUT .\annexes.tex
+OUTPUT annexes.aux
+INPUT .\annexes.tex
+INPUT .\annexes.tex
+INPUT annexes.tex
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcbx1000.tfm
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
 INPUT RAPPORT_PMI2026_Sujet_T-E-03.aux
-INPUT .\0.couverture.aux
-INPUT .\0.couverture.aux
-INPUT 0.couverture.aux
-INPUT .\1. remerciements.aux
-INPUT .\1. remerciements.aux
-INPUT 1. remerciements.aux
-INPUT .\2. sommaire.aux
-INPUT .\2. sommaire.aux
-INPUT 2. sommaire.aux
+INPUT .\couverture.aux
+INPUT .\couverture.aux
+INPUT couverture.aux
+INPUT .\remerciements.aux
+INPUT .\remerciements.aux
+INPUT remerciements.aux
+INPUT .\sommaire.aux
+INPUT .\sommaire.aux
+INPUT sommaire.aux
 INPUT .\introduction.aux
 INPUT .\introduction.aux
 INPUT introduction.aux
@@ -465,25 +487,34 @@ INPUT omni.aux
 INPUT .\state_of_the_art.aux
 INPUT .\state_of_the_art.aux
 INPUT state_of_the_art.aux
-INPUT .\9. Bibliographie-Webographie.aux
-INPUT .\9. Bibliographie-Webographie.aux
-INPUT 9. Bibliographie-Webographie.aux
-INPUT .\10 abreviations.aux
-INPUT .\10 abreviations.aux
-INPUT 10 abreviations.aux
-INPUT .\11. glossaire.aux
-INPUT .\11. glossaire.aux
-INPUT 11. glossaire.aux
+INPUT .\Bibliographie-Webographie.aux
+INPUT .\Bibliographie-Webographie.aux
+INPUT Bibliographie-Webographie.aux
+INPUT .\abreviations.aux
+INPUT .\abreviations.aux
+INPUT abreviations.aux
+INPUT .\glossaire.aux
+INPUT .\glossaire.aux
+INPUT glossaire.aux
+INPUT .\annexes.aux
+INPUT .\annexes.aux
+INPUT annexes.aux
 INPUT .\RAPPORT_PMI2026_Sujet_T-E-03.out
 INPUT .\RAPPORT_PMI2026_Sujet_T-E-03.out
 INPUT RAPPORT_PMI2026_Sujet_T-E-03.run.xml
 OUTPUT RAPPORT_PMI2026_Sujet_T-E-03.run.xml
+INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1000.pk
+INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1000.pk
+INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
+INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
-INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
-INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
@@ -504,11 +535,25 @@ INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecr
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1200.pk
 INPUT C:\Users\pierr\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1200.pk
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\pierr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
