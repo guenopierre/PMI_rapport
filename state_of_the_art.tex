@@ -6,25 +6,46 @@
 % 1. DÉFINITION ET CAUSES
 % =====================================================================
 
-On parle de donnée manquante lorsqu’une valeur n’a pas été enregistrée pour une variable ou pour un individu \cite{Zahmatkesh_2026}.
+
+\paragraph{Définitions}
+On parle de donnée manquante lorsqu’une valeur n’a pas été enregistrée et n'est pas disponible.
 % Source : Zahmatkesh, §2.2 « Missing Data », p. 6, 1re phrase.
 % Citation complète dans ta mind map (branche « What are missing values? »).
-Ce phénomène est impossible à éviter complètement. 
-Même lorsque le système de collecte est bien conçu et que les capteurs sont de bonne qualité, des valeurs finissent toujours par manquer \cite{Adhikari_2023}. 
-Les causes sont très variées, 
+Pour notre application, nos valeurs sont regroupées dans des séries temporelles multivariées. Une série temporelle \gls{X} est la suite de $n$ observations chronologiques de $d$ grandeurs physiques ou numériques, mesurées aux instants de la liste \gls{T}. 
+La série est dite multivariée dès que $d \ge 2$. 
+
+Par exemple, pour $n=3$ observations de $d=4$ variables, en notant "None" une donnée manquante :
+\begin{equation}
+X = \begin{bmatrix}
+1 & 6 & \mathrm{None} & 9 \\
+7 & \mathrm{None} & 7 & \mathrm{None} \\
+9 & \mathrm{None} & \mathrm{None} & 79
+\end{bmatrix},
+\qquad
+T = \begin{bmatrix} 0 \\ 5 \\ 13 \end{bmatrix}
+\label{eq:exemple_X}
+\end{equation}
+% Source : Fang, §3 « Preliminary », p. 3, Définition 1 (« Multivariable Time Series ») et Exemple 1.
+% Même exemple repris dans Luo, §2, p. 2.
+
+
+
+\paragraph{Causes} 
+L'apparition de données manquante est un phénomène difficile à éviter complètement. 
+Même lorsque le système de collecte est bien conçu et que les capteurs sont de bonne qualité, des valeurs finissent toujours par manquer. 
+Les différentes causes sont très variées. 
 % Source 1 : Adhikari, §1 « Introduction », p. 2, vers la fin du 1er paragraphe :
 %   « No matter how strictly the various intelligent systems are designed... »
 % Source 2 : Zahmatkesh, §2.2, p. 6, 2e phrase : liste « human errors, technical failures,
 %   data entry issues, data processing errors, data integration problems, or intentional omissions ».
-Adhikari et al. proposent de les classer selon l’architecture d’un système de type Internet des objets (IoT), qui comporte trois couches \cite{Adhikari_2023} :
+\cite{Adhikari_2023} proposent de les classer selon l’architecture d’un système de type Internet des objets (IoT), qui comporte trois couches :
 \begin{itemize}
     \vspace{2mm}
     \item \textbf{La couche physique (capteurs)} : environnement difficile, phénomènes météorologiques extrêmes, maintenance, vieillissement ou panne des capteurs, batterie ou alimentation insuffisante, attaques sur les capteurs ;
     \vspace{2mm}
-    \item \textbf{La couche réseau (transmission)} : perte de paquets, problèmes de chiffrement ou de déchiffrement, équipements défaillants, attaques sur le réseau, problèmes d’alimentation ;
+    \item \textbf{La couche réseau (transmission)} : perte de paquets, problèmes de chiffrement ou de déchiffrement, équipements défaillants, attaques sur le réseau, problèmes d’alimentation, coupure de communication ;
     \vspace{2mm}
     \item \textbf{La couche application (stockage et traitement)} : erreur humaine (suppression, oubli), non-réponse à une enquête, erreur lors de l’enregistrement ou du transfert, ou cause inconnue.
-    \vspace{5mm}
 \end{itemize}
 % Source : Adhikari, §2.2 « IoT Architecture and Missing Data », pp. 5-6 + Fig. 1 (p. 6).
 %   Le texte décrit les 3 couches (« sensing/object layer », « network layer », « application layer »).
@@ -38,20 +59,19 @@ Adhikari et al. proposent de les classer selon l’architecture d’un système 
 % =====================================================================
 % 2. DOMAINES TOUCHÉS
 % =====================================================================
-
-On retrouve les mêmes causes dans d’autres applications; en realité, le problème touche presque tous les domaines. 
+\paragraph{Exemples}
+Avec toutes ces causes possible, le problème touche presque tous les domaines. 
 Voici quelques exemples concrets, qui concernent directement les séries temporelles multivariées:
 \begin{itemize}
     \vspace{2mm}
-    \item En santé, le jeu de données PhysioNet 2012, composé de séjours en soins intensifs, est très souvent utilisé comme référence. 
-    Son taux global de valeurs manquantes dépasse 80~\% car elles ne sont réalisées que lors de l'intervention d'un spécialiste \cite{Luo_2018,Richter_2024,Wang_2025}.
+    \item En santé, le jeu de données PhysioNet 2012, composé de séjours en soins intensifs, est très souvent utilisé comme référence car son taux global de valeurs manquantes dépasse 80~\% \cite{Luo_2018,Richter_2024,Wang_2025}.
     \vspace{2mm}
     \item Pour la qualité de l'air, le jeu de données italien PT08.S1 présente environ 34~\% de valeurs manquantes \cite{Richter_2024}.
     \vspace{2mm}
-    \item Les mesures de température, de précipitations ou d’humidité proviennent surtout de réseaux de stations, souvent incomplets \cite{Alejo-Sanchez_2025}.
+    \item Les mesures météorologiques de température, de précipitations ou d’humidité proviennent surtout de réseaux de stations, souvent incomplets \cite{Alejo-Sanchez_2025}.
     \vspace{2mm}
     \item Fang et Wang montrent que des erreurs de capteurs de niveau d'essence créent des trous dans les données, et que les imputer améliore nettement la prédiction de consommation \cite{Fang_2020}.
-\end{itemize} \vspace{5mm}
+\end{itemize}
 % Source 1 (santé) : Luo, §1, p. 2 + Fig. 2 : « The global missing rate is 80.67% » ; Richter, §I, p. 1 (148167) :
 %   « Physionet 2012 data set on medical data has a missing rate of 80 percent » ; Wang, §1, p. 1 : « missing rates can exceed 80% ».
 % Source 2 (air) : Richter, §I, p. 1 (148167) : PT08.S1 « has a missing rate of 34 percent ».
@@ -65,23 +85,45 @@ Voici quelques exemples concrets, qui concernent directement les séries tempore
 % \textit{GRAPHE SUGGÉRÉ : si tu utilises PhysioNet dans ton projet, ta propre carte de chaleur des valeurs manquantes
 %   (variables × heures) serait plus parlante, sur le modèle des Fig. 1-2 de Luo.}
 
-Le taux de valeurs manquantes peut être très élevé. 
-Plusieurs auteurs indiquent qu’il peut atteindre 90~\% dans certains jeux de données \cite{Fang_2020,Richter_2024}. \\
-% Source 1 : Fang, §1, p. 1, 1er paragraphe : « the missing rate can reach 90% ».
-% Source 2 : Richter, §I, p. 1 (148167) : « the missing rate can reach up to 90 % ».
-% \textit{DOUTE : les deux articles citent la même source d’origine (García-Laencina et al., 2015).
-%   Si tu veux la citer directement, il faudra l’ajouter à ta bibliographie.}
 
 % =====================================================================
 % 3. POURQUOI IL FAUT LES TRAITER CORRECTEMENT
 % =====================================================================
 
+\paragraph{Traitement}
 Il est important de traiter correctement ces données manquantes, car ne pas le faire a des conséquences directes. 
-Adhikari et al. citent plusieurs risques : des résultats biaisés, une taille d’échantillon réduite, une perte d’efficacité et de puissance statistique, des intervalles de confiance moins précis, et au final des conclusions trompeuses \cite{Adhikari_2023}.
-Certains modèles de Machine Learning ont aussi besoin de données complètes pour bien fonctionner \cite{Adhikari_2023}. 
-Les effets se voient en aval : classification, régression et prévision sont dégradées \cite{Fang_2020,Wang_2025}. 
-Dans le cas du climat, les trous compliquent le suivi et la prévision des phénomènes \cite{Alejo-Sanchez_2025}. 
-De plus, les valeurs manquantes proches dans le temps ou dans l’espace peuvent contenir de l’information utile, et doivent donc être soigneusement récupérées \cite{Zahmatkesh_2026}.
+\cite{Adhikari_2023} citent plusieurs risques : des résultats biaisés, une taille d’échantillon réduite, une perte d’efficacité et de puissance statistique, des intervalles de confiance moins précis, et au final des conclusions trompeuses.
+Certains modèles de Machine Learning ont aussi besoin de données complètes pour bien fonctionner. 
+Les effets se voient en aval : classification, régression et prévision sont dégradées. % ===== III.2 : à placer juste après la phrase d'introduction de la section =====
+Pour repérer les valeurs manquantes, nous utilisons la matrice de masque \gls{M}, de même taille que \gls{X}, qui vaut 1 si la valeur est observée et 0 si elle manque \cite{Fang_2020}. Pour l'exemple précédent :
+\begin{equation}
+M = \begin{bmatrix}
+1 & 1 & 0 & 1 \\
+1 & 0 & 1 & 0 \\
+1 & 0 & 0 & 1
+\end{bmatrix}
+\end{equation}
+% Source : Fang, §3, p. 3, Définition 2 (« Mask Matrix »).
+
+% ===== III.2.1 Durées : à placer après la phrase « ...définition personnelle plus adaptée... » =====
+Pour manipuler ces durées, nous utilisons deux matrices. La matrice des écarts temporels \gls{delta} donne, pour chaque valeur, le temps écoulé depuis la dernière observation de la même variable \cite{Fang_2020}. La matrice de Qin \gls{Stat} classe chaque valeur comme mesure (2), petit trou (1) ou grand trou (0) selon la durée du trou \cite{Qin_2007}. Elle est plus simple que la classification d'Adhikari et al., qui compte quatre types de trous. Avec un petit trou défini comme une seule valeur manquante ($\tau = 1$), l'exemple précédent donne :
+\begin{equation}
+\delta = \begin{bmatrix}
+0 & 0 & 0 & 0 \\
+5 & 5 & 5 & 5 \\
+8 & 13 & 8 & 13
+\end{bmatrix},
+\qquad
+\mathit{Stat} = \begin{bmatrix}
+2 & 2 & 1 & 2 \\
+2 & 0 & 2 & 1 \\
+2 & 0 & 1 & 2
+\end{bmatrix}
+\end{equation}
+% Source δ : Fang, §3, p. 3, Définition 3 (« Time Lag ») ; Luo, §2, p. 3 (même formule).
+% Source Stat : Qin et al. (2007), via ton PDF de définitions. Je n'ai pas lu ce papier.
+% \textit{DOUTE : le seuil τ = 1 est un choix d'exemple pour illustrer, pas une valeur de Qin.}
+
 % Source 1 : Adhikari, §1.1, p. 2, 3e paragraphe : « The high risk of obtaining bias results... reduction in sample size,
 %   loss of efficiency... misleading results ».
 % Source 2 : Adhikari, §1.1, p. 2, 4e paragraphe : « All of these techniques require complete quality data ».
@@ -93,45 +135,149 @@ De plus, les valeurs manquantes proches dans le temps ou dans l’espace peuvent
 %   pas les données manquantes. Je ne l’ai donc pas utilisée ici.
 
 Cependant, remplir les trous n’est pas forcément une tâche aisée.
-Le choix de la méthode adaptée dépend de la façon dont les données manquent : leur durée, leur motif et leur mécanisme d'apparition \cite{Zahmatkesh_2026}.
+Le choix de la méthode adaptée dépend de la façon dont les données manquent : leur durée, leur motif et leur mécanisme d'apparition.
 C’est l’objet de la section suivante.
 % Source : Zahmatkesh, §1, p. 2 : choisir une méthode d’imputation « with the knowledge of missing data mechanisms and the pattern of missingness » ;
 %   §2.2, p. 6 : comprendre la distribution des trous aide à choisir l’algorithme.
 
-
-
-
 \section{Comprendre la répartition des données manquantes}
+
+Avant de choisir une méthode d’imputation, il faut comprendre comment les données manquent. 
+Nous l’analysons selon trois angles : la durée des trous, leur motif et leur mécanisme \cite{Zahmatkesh_2026}.
+% Source : Zahmatkesh, §2.2, p. 6 : « missingness mechanisms and missingness patterns » ; la durée vient d’Adhikari §2.4.
+
+Pour repérer les valeurs manquantes, nous utilisons la matrice de masque \gls{M}, de même taille que \gls{X}, qui vaut 1 si la valeur est observée et 0 si elle manque \cite{Fang_2020}. Pour l'exemple précédent :
+\begin{equation}
+M = \begin{bmatrix}
+1 & 1 & 0 & 1 \\
+1 & 0 & 1 & 0 \\
+1 & 0 & 0 & 1
+\end{bmatrix}
+\end{equation}
+% Source : Fang, §3, p. 3, Définition 2 (« Mask Matrix »).
+
+Pour manipuler ces durées, nous utilisons deux matrices. La matrice des écarts temporels \gls{delta} donne, pour chaque valeur, le temps écoulé depuis la dernière observation de la même variable \cite{Fang_2020}. La matrice de Qin \gls{Stat} classe chaque valeur comme mesure (2), petit trou (1) ou grand trou (0) selon la durée du trou \cite{Qin_2007}. Elle est plus simple que la classification d'Adhikari et al., qui compte quatre types de trous. Avec un petit trou défini comme une seule valeur manquante ($\tau = 1$), l'exemple précédent donne :
+\begin{equation}
+\delta = \begin{bmatrix}
+0 & 0 & 0 & 0 \\
+5 & 5 & 5 & 5 \\
+8 & 13 & 8 & 13
+\end{bmatrix},
+\qquad
+\mathit{Stat} = \begin{bmatrix}
+2 & 2 & 1 & 2 \\
+2 & 0 & 2 & 1 \\
+2 & 0 & 1 & 2
+\end{bmatrix}
+\end{equation}
+% Source δ : Fang, §3, p. 3, Définition 3 (« Time Lag ») ; Luo, §2, p. 3 (même formule).
+% Source Stat : Qin et al. (2007), via ton PDF de définitions. Je n'ai pas lu ce papier.
+% \textit{DOUTE : le seuil τ = 1 est un choix d'exemple pour illustrer, pas une valeur de Qin.}
+
+
+
 
 \subsection{Durées}
 
-Gap classification (Adhikari et al 2023)
+Le taux de valeurs manquantes (la part de données absentes) ne dit pas tout. Il faut aussi regarder la durée des trous, c’est-à-dire le nombre de valeurs manquantes consécutives. 
+Adhikari et al. insistent sur ce point : cette durée est l’un des facteurs qui décident du succès ou de l’échec d’une imputation \cite{Adhikari_2023}. 
+Ils proposent quatre catégories, exprimées en part de la série (Tableau~\ref{tab:gaps}).
+% Source : Adhikari, §2.4 « Missing Amount and Gap in Datasets », p. 7 + Table 2.
+%   « the continuous missing gap in the variable of the dataset... one of the critical components ».
+% \textit{DOUTE : le texte dit « plus de 2 valeurs consécutives jusqu’à 3 % » pour les trous courts, mais le Tableau 2 dit « jusqu’à 3 % ».
+%   Le cas de 2 valeurs consécutives n’est pas clair. J’ai suivi le tableau.}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Type de trou} & \textbf{Valeurs manquantes consécutives} \\ \hline
+Ponctuel & 1 valeur \\ \hline
+Court & jusqu’à 3~\% de la série \\ \hline
+Long & de 3 à 10~\% de la série \\ \hline
+Très long & 10~\% ou plus de la série \\ \hline
+\end{tabular}
+\caption{Classification des trous selon \cite{Adhikari_2023}.}
+\label{tab:gaps}
+\end{table}
+% \textit{DOUTE : Adhikari écrit « High » et « Very High » ; j’ai traduit par « Long » et « Très long » pour éviter la confusion avec le taux. À toi de choisir.}
+Par rapport à notre application sur le dataset OMNI, nous reviendrons dans le chapitre 4 sur une définition personnelle plus adaptée à celui-ci. 
+
+
+Les trous ponctuels et courts sont les plus fréquents. Au contraire, quand les trous sont longs, la tendance et la structure de la série sont perdues, et l’imputation devient bien plus difficile \cite{Adhikari_2023}. Or, beaucoup d’expériences retirent au hasard 50~\% des valeurs sans contrôler la durée des trous. Elles créent donc surtout des trous courts, et peu de travaux traitent les trous longs \cite{Adhikari_2023}. Richter et al. soulignent aussi qu’il manque des études sur l’effet de trous isolés comparés à des séries de valeurs manquantes d’un seul bloc \cite{Richter_2024}.
+% Source 1 : Adhikari, §2.4, p. 7 : « When high and very high missing gaps exist, the trend, pattern, and structure
+%   of the data are entirely broken » ; même paragraphe : expériences à 50 % qui « contain a point missing gap and a short gap only ».
+% Source 2 : Richter, §V.E « Open research problems », p. 148186, point « Treatment of different missingness patterns ».
+% \textit{DOUTE : ces seuils sont définis pour l’IoT. Vérifie qu’ils ont un sens pour tes données (fréquence, longueur des séries).}
+% \textit{GRAPHE SUGGÉRÉ : deux séries avec 50 % de valeurs manquantes, l’une avec des trous ponctuels, l’autre avec un seul grand trou.
+%   Cela montre très bien pourquoi le taux seul ne suffit pas (c’est mon exemple, pas celui d’Adhikari).}
 
 \subsection{Patterns}
 
-univariate Vs multivariate:
+Le pattern (schéma) décrit quelles valeurs sont observées et lesquelles manquent dans un dataset avec plusieurs données. \cite{Zahmatkesh_2026}. 
+On distingue plusieurs cas :
+\begin{itemize}
+    \item \textbf{Univarié ou multivarié} : les valeurs manquent dans une seule variable, ou dans plusieurs variables à la fois \cite{Zahmatkesh_2026} ;
+    \item \textbf{Monotone ou non monotone} : dans un pattern monotone, une variable absente à un instant reste absente à tous les instants suivants (par exemple un capteur qui s’arrête définitivement). Dans un pattern non monotone, la valeur peut réapparaître plus tard \cite{Zahmatkesh_2026} ;
+    \item \textbf{\emph{File matching}} : certaines variables ne sont jamais observées en même temps \cite{Zahmatkesh_2026}.
+\end{itemize}
+Adhikari et al. retiennent aussi le pattern \textbf{arbitraire}, où les valeurs manquent de façon aléatoire. C’est le plus difficile à traiter \cite{Adhikari_2023}.
+% Source 1 : Zahmatkesh, §2.2, p. 7, 1er paragraphe : « univariate, multivariate, monotone, non-monotone, and file matching »
+%   (citations complètes dans ta mind map, branche « Patterns »).
+% Source 2 : Adhikari, §2.3, p. 7 : « Univariate, monotone, and arbitrary are the three patterns of missing data ».
+%   Il note que le pattern arbitraire est « more complicated to handle ».
+% \textit{DOUTE : l’exemple du capteur qui s’arrête est mon interprétation (Zahmatkesh parle de « subject » et de suivi dans le temps, plutôt médical).}
+% \textit{DOUTE : le pattern « file matching » est peu pertinent pour des séries temporelles de capteurs. On peut le garder en une ligne, comme ici.}
+% \textit{GRAPHE SUGGÉRÉ : une petite matrice (variables × temps) montrant chaque pattern. À dessiner toi-même.}
 
-monotone Vs non-monotone:
+\subsection{Mécanismes}
 
-file matching
+Rubin classe les mécanismes de données manquantes en trois catégories : MCAR, MAR et MNAR \cite{Zahmatkesh_2026,Wang_2025}.
+On note $X = (X^{o}, X^{m})$ les valeurs observées et manquantes, et \gls{M}. 
+\begin{itemize}
+    \item \textbf{MCAR} (Missing Completely At Random) : l’absence ne dépend ni des valeurs observées, ni des valeurs manquantes, soit $P(M \mid X) = P(M)$. 
+    
+    Exemple : une panne de courant ou de connexion \cite{Zahmatkesh_2026} ;
+    \item \textbf{MAR} (Missing At Random) : l’absence dépend seulement des valeurs observées, soit $P(M \mid X) = P(M \mid X^{o})$. 
+    
+    Exemple : des données de machine plus souvent absentes le week-end \cite{Zahmatkesh_2026} ;
+    \item \textbf{MNAR} (Missing Not At Random) : l’absence dépend aussi de la valeur manquante elle-même, soit $P(M \mid X) = P(M \mid X^{o}, X^{m})$. 
+    
+    Exemple : un capteur de température qui ne donne rien au-delà de 100 degrés \cite{Zahmatkesh_2026}.
+\end{itemize}
+Le MCAR est un cas particulier du MAR \cite{Zahmatkesh_2026,Adhikari_2023}.
+% Source 1 : Zahmatkesh, §2.2, p. 6 : définitions, exemples (« radio signals », « afternoon / weekends », « temperatures over 100 degrees »).
+% Source 2 : Wang, §2.1 « Missing Mechanism », p. 2 : formules MCAR / MAR / MNAR avec M (mask).
+% Source 3 : Adhikari, §2.3, pp. 6-7 : « MCAR is a special case of MAR » ; Rubin cité.
+% ATTENTION : la formule MNAR de Zahmatkesh est mal imprimée (typo dans l’article). J’ai repris la notation de Wang.
+%   Zahmatkesh utilise aussi la convention inverse (R=1 si manquant). J’ai gardé M=1 si observé, comme Luo, Fang et Wang.
+% CORRECTION de ta mind map : les définitions entre crochets sont décalées (voir mon message).
+% \textit{DOUTE : Rubin (1976) n’est pas dans tes PDF. Je cite Zahmatkesh et Wang, qui le citent. Ajoute-le à ta bibliographie si tu veux le citer directement.}
+% \textit{GRAPHE SUGGÉRÉ : redessiner la Fig. 2 de Zahmatkesh (régression avec points manquants pour MCAR, MAR, MNAR).
+%   Elle montre l’effet de chaque mécanisme sur l’estimation.}
 
 
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.9\textwidth]{images/MCAR, MAR, MNAR.jpg}
+   \caption{à remplir}
+   \label{fig:mcar_mar_mnar}
+ \end{figure}
 
-\subsection{Mechanisms}
-
-
-Rubin (MCAR, MAR, NMAR)
 
 \section{Méthodes d’imputation}
 (préciser qu'il existe d'autres techniques que l'imputation mais quelle sont pas du tt dans notre contexte)
 
-\subsection{single imputation}
 
-\subsection{multiple imputation}
-\subsubsection{Model based}
-\subsubsection{Imputation based}
 
 \subsection{Méthodes statistiques conventionnelles}
+
+\subsubsection{single imputation}
+
+\subsubsection{multiple imputation}
+%\paragraph{Model based}
+%\paragraph{Imputation based}
 
 \subsection{Méthode de Machine Learning (shallow learning)}
 
